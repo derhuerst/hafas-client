@@ -33,6 +33,7 @@ const cfg = {
 	maxLongitude: 14.07
 }
 
+// todo: shouldn't this be createValidateJourneyLeg
 const _validateLine = createValidateLine(cfg)
 const validateLine = (validate, l, name) => {
 	if (!l.direction) l = Object.assign({}, l, {direction: 'foo'})

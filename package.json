@@ -2,8 +2,10 @@
 	"name": "hafas-client",
 	"description": "Client for HAFAS public transport APIs.",
 	"version": "5.13.0",
-	"main": "index.js",
+	"main": "rest-exe.js",
 	"files": [
+		"rest-exe.js",
+		"rest-exe-example.js",
 		"index.js",
 		"throttle.js",
 		"retry.js",
@@ -41,6 +43,7 @@
 	"dependencies": {
 		"@derhuerst/br2nl": "^1.0.0",
 		"capture-stack-trace": "^1.0.0",
+		"content-type": "^1.0.4",
 		"create-hash": "^1.2.0",
 		"fetch-ponyfill": "^7.0.0",
 		"google-polyline": "^1.0.3",
@@ -51,6 +54,7 @@
 		"object-scan": "^13.0.0",
 		"p-retry": "^4.1.0",
 		"p-throttle": "^3.1.0",
+		"parse-iso-duration": "^1.1.0",
 		"pinkie-promise": "^2.0.1",
 		"qs": "^6.6.0",
 		"slugg": "^1.2.0",

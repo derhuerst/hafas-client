@@ -3,8 +3,8 @@
 const parseWhen = (ctx, date, timeS, timeR, tzOffset, cncl = false) => {
 	const parse = ctx.profile.parseDateTime
 
-	let planned = timeS ? parse(ctx, date, timeS, tzOffset, false) : null
-	let prognosed = timeR ? parse(ctx, date, timeR, tzOffset, false) : null
+	let planned = date && timeS ? parse(ctx, date, timeS, tzOffset, false) : null
+	let prognosed = date && timeR ? parse(ctx, date, timeR, tzOffset, false) : null
 	let delay = null
 
 	if (planned && prognosed) {

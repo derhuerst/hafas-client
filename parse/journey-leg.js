@@ -75,7 +75,7 @@ const parseJourneyLeg = (ctx, pt, date) => { // pt = raw leg
 		res.reachable = !!pt.jny.isRchbl
 	}
 
-	if (pt.jny && pt.jny.polyline) {
+	if (opt.polylines && pt.jny && pt.jny.polyline) {
 		res.polyline = pt.jny.polyline || null
 	} else if (pt.jny && pt.jny.poly) {
 		res.polyline = profile.parsePolyline(ctx, pt.jny.poly)

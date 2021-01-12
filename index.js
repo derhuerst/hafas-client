@@ -7,7 +7,6 @@ const omit = require('lodash/omit')
 
 const defaultProfile = require('./lib/default-profile')
 const validateProfile = require('./lib/validate-profile')
-const {INVALID_REQUEST} = require('./lib/errors')
 
 const isNonEmptyString = str => 'string' === typeof str && str.length > 0
 
@@ -311,7 +310,7 @@ const createClient = (profile, userAgent, opt = {}) => {
 				// technically this is not a HAFAS error
 				// todo: find a different flag with decent DX
 				err.isHafasError = true
-				err.code = INVALID_REQUEST
+				err.code = 'INVALID_REQUEST'
 				throw err
 			}
 

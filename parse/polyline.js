@@ -7,6 +7,7 @@ const distance = require('gps-distance')
 // todo: what is p.type?
 // todo: what is p.crdEncS?
 // todo: what is p.crdEncF?
+// todo: what is p.dim?
 const parsePolyline = (ctx, p) => { // p = raw polyline
 	const points = decode(p.crdEncYX)
 	if (points.length === 0) return null

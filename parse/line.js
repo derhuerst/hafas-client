@@ -25,7 +25,8 @@ const parseLine = ({profile}, p) => {
 		res.adminCode = p.prodCtx.admin.replace(/-+$/, '')
 	}
 
-	if ('cls' in p) {
+	const pCls = p.cls || (p.prodCtx && p.prodCtx.catCode)
+	if (pCls) {
 		// todo: use profile.products.find() for this
 		const byBitmask = []
 		for (let product of profile.products) {
@@ -34,8 +35,8 @@ const parseLine = ({profile}, p) => {
 			}
 		}
 
-		// todo: what if `p.cls` is the sum of two bitmasks?
-		const product = byBitmask[parseInt(p.cls)]
+		// todo: what if `pCls` is the sum of two bitmasks?
+		const product = byBitmask[parseInt(pCls)]
 		res.mode = product && product.mode || null
 		res.product = product && product.id || null
 	}
