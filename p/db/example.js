@@ -42,6 +42,18 @@ client.journeys('8011167', '8000261', {results: 1, tickets: true})
 // 	east: 13.41709
 // }, {results: 10})
 
+// client.journeys('8011113', '8000261', {
+// 	departure: Date.now() - 2 * 60 * 60 * 1000,
+// 	results: 1, stopovers: true, transfers: 1
+// })
+// .then(({journeys}) => {
+// 	const leg = journeys[0].legs.find(l => l.line && l.line.product === 'nationalExpress')
+// 	const prevStopover = leg.stopovers.find((st) => {
+// 		return st.departure && Date.parse(st.departure) < Date.now()
+// 	})
+// 	return client.journeysFromTrip(leg.tripId, prevStopover, '8000207')
+// })
+
 .then((data) => {
 	console.log(require('util').inspect(data, {depth: null, colors: true}))
 }, console.error)
