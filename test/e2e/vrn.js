@@ -227,3 +227,46 @@ test('radar', async (t) => {
 	validate(t, vehicles, 'movements', 'vehicles')
 	t.end()
 })
+
+test('subscribing to a journey works', async (t) => {
+	const {journeys} = await client.journeys(ludwigshafen, meckesheim, {
+		departure: when, results: 1,
+	})
+	const journey = journeys[0]
+	const channelId = 'some-channel'
+
+	const userId = await client.createSubscriptionsUser([channelId])
+	t.equal(typeof userId, 'string')
+	t.ok(userId)
+	t.deepEqual(await client.subscriptions(userId), [])
+
+	const subId = await client.subscribeToJourney(userId, [channelId], journey.refreshToken)
+	t.ok(subId !== undefined && subId !== null, 'subId')
+
+	const {
+		subscription: sub, rtEvents, himEvents,
+	} = await client.subscription(userId, subId, {activeDays: true})
+	t.ok(sub)
+	t.equal(sub.id, subId)
+	t.deepEqual(sub.hysteresis, {minDeviationInterval: 1, notificationStart: 30})
+	t.deepEqual(sub.monitorFlags, ['AF', 'DF', 'DV', 'FTF', 'OF', 'PF'])
+	t.ok(Array.isArray(sub.connectionInfo))
+	t.ok(sub.connectionInfo.length > 0)
+	t.equal(sub.journeyRefreshToken, journey.refreshToken)
+	t.ok(sub.activeDays)
+	t.ok(Array.isArray(rtEvents))
+	t.ok(Array.isArray(himEvents))
+
+	const subs = await client.subscriptions(userId)
+	t.deepEqual(subs, [{
+		id: subId,
+		status: 'ACTIVE',
+		channels: [{id: channelId}],
+		journeyRefreshToken: journey.refreshToken,
+	}])
+
+	await client.unsubscribe(userId, subId)
+	t.deepEqual(await client.subscriptions(userId), [])
+
+	t.end()
+})

@@ -53,3 +53,12 @@ test('date & time parsing uses profile.timezone', (t) => {
 	t.equal(iso, '2019-08-19T20:30:00+03:00')
 	t.end()
 })
+
+test('date & time parsing works with an ISO date+time string', (t) => {
+	const iso1 = parse(ctx, '20190219', '2005-06-07T08:09:10Z', undefined, false)
+	t.equal(iso1, '2005-06-07T10:09:10+02:00')
+	// Is `133105` a valid ISO string 😕?
+	const iso2 = parse(ctx, '20190219', '133105', undefined, false)
+	t.equal(iso2, '2019-02-19T13:31:05+01:00')
+	t.end()
+})

@@ -30,7 +30,7 @@ const parseLocation = (ctx, l) => {
 		res.longitude = lid.X / 1000000
 	}
 
-	if (l.type === STATION) {
+	if (l.type === STATION || l.type === '3') { // todo: does `3` mean station?
 		// todo: https://github.com/public-transport/hafas-client/issues/151
 		const locL = get(ctx.res, ['common', 'locL'], [])
 

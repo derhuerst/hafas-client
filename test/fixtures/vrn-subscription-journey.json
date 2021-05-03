@@ -1,0 +1,4850 @@
+{
+	"sDays": {
+		"sDaysR": "runs 28. Nov until 11. Dec 2020 ",
+		"end": "2021-12-11T01:00:00Z",
+		"begin": "2019-12-15T01:00:00Z",
+		"sDaysB": "FFFFFFFFFFFFFFFFF8000000000038000000000000000000000000000000000000000000000000003FFFFFFFFFE0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+	},
+	"conSubscr": 2,
+	"dep": {
+		"aOutS": 1,
+		"isAdd": false,
+		"dCncl": false,
+		"aPlatfCh": false,
+		"dTimeS": "2020-11-28T17:46:00Z",
+		"dInR": true,
+		"dProd": {
+			"number": "2294",
+			"productContext": {
+				"catOut": "IC",
+				"catOutS": "IC",
+				"catCode": "1",
+				"catOutL": "Intercity",
+				"catIn": "IC",
+				"num": "2294",
+				"name": "IC  2294"
+			},
+			"ico": {
+				"shp": "1",
+				"res": "prod_ic",
+				"sty": "1",
+				"bg": {
+					"r": 89,
+					"b": 87,
+					"g": 87,
+					"a": 255
+				},
+				"fg": {
+					"r": 255,
+					"b": 255,
+					"g": 255,
+					"a": 255
+				}
+			},
+			"productMask": {
+				"integerValue": 2
+			},
+			"name": "IC 2294"
+		},
+		"idx": 1,
+		"dCaS": 0,
+		"aOutR": true,
+		"aCncl": false,
+		"dPlatformS": {
+			"type": "2",
+			"text": "3"
+		},
+		"isImp": false,
+		"dPlatfCh": false,
+		"dInS": 1,
+		"aCaS": 0,
+		"loc": {
+			"mapSelectable": true,
+			"currentLocationType": 0,
+			"productsMask": {
+				"integerValue": 319
+			},
+			"crd": {
+				"x": 8675480,
+				"coordSystem": {
+					"dim": 0,
+					"identifier": "standard",
+					"type": "1",
+					"index": 0
+				},
+				"y": 49403582,
+				"layer": {
+					"identifier": "standard",
+					"annotationCount": 0,
+					"name": "standard",
+					"index": 0
+				},
+				"z": 0,
+				"type": "1"
+			},
+			"wt": 0,
+			"isMainMast": false,
+			"name": "Heidelberg Hbf",
+			"type": "3",
+			"state": "1",
+			"extId": "8000156",
+			"meta": false,
+			"dist": 0,
+			"lid": "A=1@O=Heidelberg Hbf@X=8675444@Y=49403564@U=80@L=8000156@",
+			"entry": false,
+			"timestamp": "2020-11-28T14:42:41Z",
+			"isSelectable": true,
+			"ico": {
+				"shp": "1",
+				"res": "prod_ice",
+				"sty": "1",
+				"bg": {
+					"r": 89,
+					"b": 87,
+					"g": 87,
+					"a": 255
+				},
+				"fg": {
+					"r": 255,
+					"b": 255,
+					"g": 255,
+					"a": 255
+				}
+			}
+		}
+	},
+	"reconstructionState": 0,
+	"waitingForShareConnectionURL": false,
+	"status": 0,
+	"showARSLink": false,
+	"arr": {
+		"aOutS": 1,
+		"isAdd": false,
+		"dCncl": false,
+		"aPlatfCh": false,
+		"dInR": true,
+		"idx": 16,
+		"dCaS": 0,
+		"aOutR": true,
+		"aCncl": false,
+		"isImp": false,
+		"dPlatfCh": false,
+		"aProd": {
+			"number": "25171",
+			"nameShort": "VIA RB82",
+			"productContext": {
+				"catOut": "VIA",
+				"catOutS": "DPN",
+				"catCode": "3",
+				"catOutL": "VIAS Rail GmbH",
+				"catIn": "DPN",
+				"num": "25171",
+				"name": "VIA25171",
+				"addName": "VIA RB82"
+			},
+			"ico": {
+				"shp": "1",
+				"res": "prod_reg",
+				"sty": "1",
+				"bg": {
+					"r": 89,
+					"b": 87,
+					"g": 87,
+					"a": 255
+				},
+				"fg": {
+					"r": 255,
+					"b": 255,
+					"g": 255,
+					"a": 255
+				}
+			},
+			"productMask": {
+				"integerValue": 8
+			},
+			"addName": "VIA RB82",
+			"name": "VIA RB82"
+		},
+		"dInS": 1,
+		"aCaS": 0,
+		"aPlatformS": {
+			"type": "2",
+			"text": "1"
+		},
+		"loc": {
+			"mapSelectable": true,
+			"currentLocationType": 0,
+			"productsMask": {
+				"integerValue": 552
+			},
+			"crd": {
+				"x": 8989779,
+				"coordSystem": {
+					"dim": 0,
+					"identifier": "standard",
+					"type": "1",
+					"index": 0
+				},
+				"y": 49656772,
+				"layer": {
+					"identifier": "standard",
+					"annotationCount": 0,
+					"name": "standard",
+					"index": 0
+				},
+				"z": 0,
+				"type": "1"
+			},
+			"wt": 0,
+			"isMainMast": false,
+			"name": "Erbach(Odenw)",
+			"type": "3",
+			"state": "1",
+			"extId": "8001817",
+			"meta": false,
+			"dist": 0,
+			"lid": "A=1@O=Erbach(Odenw)@X=8989824@Y=49656709@U=80@L=8001817@",
+			"entry": false,
+			"timestamp": "2020-11-28T14:42:41Z",
+			"isSelectable": true,
+			"ico": {
+				"shp": "1",
+				"res": "prod_reg",
+				"sty": "1",
+				"bg": {
+					"r": 89,
+					"b": 87,
+					"g": 87,
+					"a": 255
+				},
+				"fg": {
+					"r": 255,
+					"b": 255,
+					"g": 255,
+					"a": 255
+				}
+			}
+		},
+		"aTimeS": "2020-11-28T19:48:00Z"
+	},
+	"dur": 7320,
+	"badSecRefX": -1,
+	"errorType": 0,
+	"cid": "C-2",
+	"secL": [
+		{
+			"isPartOfNotReachableConnection": false,
+			"hide": false,
+			"dep": {
+				"aOutS": 1,
+				"isAdd": false,
+				"dCncl": false,
+				"aPlatfCh": false,
+				"dTimeS": "2020-11-28T17:46:00Z",
+				"dInR": true,
+				"dProd": {
+					"number": "2294",
+					"productContext": {
+						"catOut": "IC",
+						"catOutS": "IC",
+						"catCode": "1",
+						"catOutL": "Intercity",
+						"catIn": "IC",
+						"num": "2294",
+						"name": "IC  2294"
+					},
+					"ico": {
+						"shp": "1",
+						"res": "prod_ic",
+						"sty": "1",
+						"bg": {
+							"r": 89,
+							"b": 87,
+							"g": 87,
+							"a": 255
+						},
+						"fg": {
+							"r": 255,
+							"b": 255,
+							"g": 255,
+							"a": 255
+						}
+					},
+					"productMask": {
+						"integerValue": 2
+					},
+					"name": "IC 2294"
+				},
+				"idx": 1,
+				"dCaS": 0,
+				"aOutR": true,
+				"aCncl": false,
+				"dPlatformS": {
+					"type": "2",
+					"text": "3"
+				},
+				"isImp": false,
+				"dPlatfCh": false,
+				"dInS": 1,
+				"aCaS": 0,
+				"loc": {
+					"mapSelectable": true,
+					"currentLocationType": 0,
+					"productsMask": {
+						"integerValue": 319
+					},
+					"crd": {
+						"x": 8675480,
+						"coordSystem": {
+							"dim": 0,
+							"identifier": "standard",
+							"type": "1",
+							"index": 0
+						},
+						"y": 49403582,
+						"layer": {
+							"identifier": "standard",
+							"annotationCount": 0,
+							"name": "standard",
+							"index": 0
+						},
+						"z": 0,
+						"type": "1"
+					},
+					"wt": 0,
+					"isMainMast": false,
+					"name": "Heidelberg Hbf",
+					"type": "3",
+					"state": "1",
+					"extId": "8000156",
+					"meta": false,
+					"dist": 0,
+					"lid": "A=1@O=Heidelberg Hbf@X=8675444@Y=49403564@U=80@L=8000156@",
+					"entry": false,
+					"timestamp": "2020-11-28T14:42:41Z",
+					"isSelectable": true,
+					"ico": {
+						"shp": "1",
+						"res": "prod_ice",
+						"sty": "1",
+						"bg": {
+							"r": 89,
+							"b": 87,
+							"g": 87,
+							"a": 255
+						},
+						"fg": {
+							"r": 255,
+							"b": 255,
+							"g": 255,
+							"a": 255
+						}
+					}
+				}
+			},
+			"jny": {
+				"isPartCncl": false,
+				"chRatingSoll": 0,
+				"isRedir": false,
+				"dist": 0,
+				"isFallbackOnRepPos": false,
+				"subscr": "2",
+				"chDuration": 10,
+				"prod": {
+					"number": "2294",
+					"productContext": {
+						"catOut": "IC",
+						"catOutS": "IC",
+						"catCode": "1",
+						"catOutL": "Intercity",
+						"catIn": "IC",
+						"num": "2294",
+						"name": "IC  2294"
+					},
+					"ico": {
+						"shp": "1",
+						"res": "prod_ic",
+						"sty": "1",
+						"bg": {
+							"r": 89,
+							"b": 87,
+							"g": 87,
+							"a": 255
+						},
+						"fg": {
+							"r": 255,
+							"b": 255,
+							"g": 255,
+							"a": 255
+						}
+					},
+					"productMask": {
+						"integerValue": 2
+					},
+					"name": "IC 2294"
+				},
+				"msgListElement": [
+					{
+						"fIdx": 1,
+						"prio": 0,
+						"tIdx": 4,
+						"type": "2",
+						"minor": 0,
+						"tagList": [
+							"RES_JNY_DTL"
+						],
+						"rem": {
+							"prio": 200,
+							"txtN": "Komfort Check-in possible (visit bahn.de/kci for more information)",
+							"code": "CK",
+							"ico": {
+								"shp": "1",
+								"res": "attr_info",
+								"sty": "1"
+							},
+							"type": "2"
+						},
+						"dspl": "1",
+						"sort": 1126170624
+					},
+					{
+						"fIdx": 1,
+						"prio": 0,
+						"tIdx": 4,
+						"type": "2",
+						"minor": 0,
+						"tagList": [
+							"RES_JNY_DTL_L"
+						],
+						"rem": {
+							"prio": 260,
+							"txtN": "Bicycles conveyed - subject to reservation",
+							"code": "FR",
+							"ico": {
+								"shp": "1",
+								"res": "attr_bike_r",
+								"sty": "1"
+							},
+							"type": "2"
+						},
+						"dspl": "1",
+						"sort": 1141899264
+					},
+					{
+						"fIdx": 1,
+						"prio": 0,
+						"tIdx": 4,
+						"type": "2",
+						"minor": 0,
+						"tagList": [
+							"RES_JNY_DTL_L"
+						],
+						"rem": {
+							"prio": 260,
+							"txtN": "Number of bicycles conveyed limited",
+							"code": "FB",
+							"ico": {
+								"shp": "1",
+								"res": "attr_bike",
+								"sty": "1"
+							},
+							"type": "2"
+						},
+						"dspl": "1",
+						"sort": 1141899264
+					},
+					{
+						"fIdx": 1,
+						"prio": 0,
+						"tIdx": 4,
+						"type": "2",
+						"minor": 0,
+						"tagList": [
+							"RES_JNY_DTL_L"
+						],
+						"rem": {
+							"prio": 450,
+							"txtN": "Bordbistro",
+							"code": "BT",
+							"ico": {
+								"shp": "1",
+								"res": "attr_bistro",
+								"sty": "1"
+							},
+							"type": "2"
+						},
+						"dspl": "1",
+						"sort": 1191706624
+					},
+					{
+						"fIdx": 1,
+						"prio": 373,
+						"txtC": {
+							"r": 150,
+							"b": 150,
+							"g": 150,
+							"a": 255
+						},
+						"tIdx": 4,
+						"type": "2",
+						"minor": 0,
+						"tagList": [
+							"SUM_SEC_H3"
+						],
+						"rem": {
+							"prio": 100,
+							"code": "",
+							"ico": {
+								"shp": "1",
+								"res": "HimInfo",
+								"sty": "1"
+							},
+							"type": "10",
+							"txtS": "Heidelberg Hbf->Darmstadt Hbf: Information."
+						},
+						"dspl": "1",
+						"sort": 1099956224
+					},
+					{
+						"fIdx": 1,
+						"prio": 373,
+						"txtC": {
+							"r": 150,
+							"b": 150,
+							"g": 150,
+							"a": 255
+						},
+						"tIdx": 4,
+						"type": "2",
+						"minor": 0,
+						"tagList": [
+							"SUM_SEC_H3"
+						],
+						"rem": {
+							"prio": 100,
+							"code": "",
+							"ico": {
+								"shp": "1",
+								"res": "Info",
+								"sty": "1"
+							},
+							"type": "10",
+							"txtS": "Heidelberg Hbf->Darmstadt Hbf: Information."
+						},
+						"dspl": "1",
+						"sort": 1099956224
+					}
+				],
+				"stopL": [
+					{
+						"aOutS": 1,
+						"isAdd": false,
+						"dCncl": false,
+						"aPlatfCh": false,
+						"dTimeS": "2020-11-28T17:46:00Z",
+						"dInR": true,
+						"dProd": {
+							"number": "2294",
+							"productContext": {
+								"catOut": "IC",
+								"catOutS": "IC",
+								"catCode": "1",
+								"catOutL": "Intercity",
+								"catIn": "IC",
+								"num": "2294",
+								"name": "IC  2294"
+							},
+							"ico": {
+								"shp": "1",
+								"res": "prod_ic",
+								"sty": "1",
+								"bg": {
+									"r": 89,
+									"b": 87,
+									"g": 87,
+									"a": 255
+								},
+								"fg": {
+									"r": 255,
+									"b": 255,
+									"g": 255,
+									"a": 255
+								}
+							},
+							"productMask": {
+								"integerValue": 2
+							},
+							"name": "IC 2294"
+						},
+						"idx": 1,
+						"dCaS": 0,
+						"aOutR": true,
+						"aCncl": false,
+						"dPlatformS": {
+							"type": "2",
+							"text": "3"
+						},
+						"isImp": false,
+						"dPlatfCh": false,
+						"dInS": 1,
+						"aCaS": 0,
+						"loc": {
+							"mapSelectable": true,
+							"currentLocationType": 0,
+							"productsMask": {
+								"integerValue": 319
+							},
+							"crd": {
+								"x": 8675480,
+								"coordSystem": {
+									"dim": 0,
+									"identifier": "standard",
+									"type": "1",
+									"index": 0
+								},
+								"y": 49403582,
+								"layer": {
+									"identifier": "standard",
+									"annotationCount": 0,
+									"name": "standard",
+									"index": 0
+								},
+								"z": 0,
+								"type": "1"
+							},
+							"wt": 0,
+							"isMainMast": false,
+							"name": "Heidelberg Hbf",
+							"type": "3",
+							"state": "1",
+							"extId": "8000156",
+							"meta": false,
+							"dist": 0,
+							"lid": "A=1@O=Heidelberg Hbf@X=8675444@Y=49403564@U=80@L=8000156@",
+							"entry": false,
+							"timestamp": "2020-11-28T14:42:41Z",
+							"isSelectable": true,
+							"ico": {
+								"shp": "1",
+								"res": "prod_ice",
+								"sty": "1",
+								"bg": {
+									"r": 89,
+									"b": 87,
+									"g": 87,
+									"a": 255
+								},
+								"fg": {
+									"r": 255,
+									"b": 255,
+									"g": 255,
+									"a": 255
+								}
+							}
+						}
+					},
+					{
+						"aOutS": 1,
+						"isAdd": false,
+						"dCncl": false,
+						"aPlatfCh": false,
+						"dTimeS": "2020-11-28T18:00:00Z",
+						"dInR": true,
+						"dProd": {
+							"number": "2294",
+							"productContext": {
+								"catOut": "IC",
+								"catOutS": "IC",
+								"catCode": "1",
+								"catOutL": "Intercity",
+								"catIn": "IC",
+								"num": "2294",
+								"name": "IC  2294"
+							},
+							"ico": {
+								"shp": "1",
+								"res": "prod_ic",
+								"sty": "1",
+								"bg": {
+									"r": 89,
+									"b": 87,
+									"g": 87,
+									"a": 255
+								},
+								"fg": {
+									"r": 255,
+									"b": 255,
+									"g": 255,
+									"a": 255
+								}
+							},
+							"productMask": {
+								"integerValue": 2
+							},
+							"name": "IC 2294"
+						},
+						"idx": 2,
+						"dCaS": 0,
+						"aOutR": true,
+						"aCncl": false,
+						"dPlatformS": {
+							"type": "2",
+							"text": "2"
+						},
+						"isImp": false,
+						"dPlatfCh": false,
+						"aProd": {
+							"number": "2294",
+							"productContext": {
+								"catOut": "IC",
+								"catOutS": "IC",
+								"catCode": "1",
+								"catOutL": "Intercity",
+								"catIn": "IC",
+								"num": "2294",
+								"name": "IC  2294"
+							},
+							"ico": {
+								"shp": "1",
+								"res": "prod_ic",
+								"sty": "1",
+								"bg": {
+									"r": 89,
+									"b": 87,
+									"g": 87,
+									"a": 255
+								},
+								"fg": {
+									"r": 255,
+									"b": 255,
+									"g": 255,
+									"a": 255
+								}
+							},
+							"productMask": {
+								"integerValue": 2
+							},
+							"name": "IC 2294"
+						},
+						"dInS": 1,
+						"aCaS": 0,
+						"aPlatformS": {
+							"type": "2",
+							"text": "2"
+						},
+						"loc": {
+							"mapSelectable": true,
+							"currentLocationType": 0,
+							"productsMask": {
+								"integerValue": 831
+							},
+							"crd": {
+								"x": 8665610,
+								"coordSystem": {
+									"dim": 0,
+									"identifier": "standard",
+									"type": "1",
+									"index": 0
+								},
+								"y": 49553738,
+								"layer": {
+									"identifier": "standard",
+									"annotationCount": 0,
+									"name": "standard",
+									"index": 0
+								},
+								"z": 0,
+								"type": "1"
+							},
+							"wt": 0,
+							"isMainMast": false,
+							"name": "Weinheim(Bergstr)Hbf",
+							"type": "3",
+							"state": "1",
+							"extId": "8000377",
+							"meta": false,
+							"dist": 0,
+							"lid": "A=1@O=Weinheim(Bergstr)Hbf@X=8665350@Y=49553306@U=80@L=8000377@",
+							"entry": false,
+							"timestamp": "2020-11-28T14:42:41Z",
+							"isSelectable": true,
+							"ico": {
+								"shp": "1",
+								"res": "prod_ice",
+								"sty": "1",
+								"bg": {
+									"r": 89,
+									"b": 87,
+									"g": 87,
+									"a": 255
+								},
+								"fg": {
+									"r": 255,
+									"b": 255,
+									"g": 255,
+									"a": 255
+								}
+							}
+						},
+						"aTimeS": "2020-11-28T17:59:00Z"
+					},
+					{
+						"aOutS": 1,
+						"isAdd": false,
+						"dCncl": false,
+						"aPlatfCh": false,
+						"dTimeS": "2020-11-28T18:09:00Z",
+						"dInR": true,
+						"dProd": {
+							"number": "2294",
+							"productContext": {
+								"catOut": "IC",
+								"catOutS": "IC",
+								"catCode": "1",
+								"catOutL": "Intercity",
+								"catIn": "IC",
+								"num": "2294",
+								"name": "IC  2294"
+							},
+							"ico": {
+								"shp": "1",
+								"res": "prod_ic",
+								"sty": "1",
+								"bg": {
+									"r": 89,
+									"b": 87,
+									"g": 87,
+									"a": 255
+								},
+								"fg": {
+									"r": 255,
+									"b": 255,
+									"g": 255,
+									"a": 255
+								}
+							},
+							"productMask": {
+								"integerValue": 2
+							},
+							"name": "IC 2294"
+						},
+						"idx": 3,
+						"dCaS": 0,
+						"aOutR": true,
+						"aCncl": false,
+						"dPlatformS": {
+							"type": "2",
+							"text": "1"
+						},
+						"isImp": false,
+						"dPlatfCh": false,
+						"aProd": {
+							"number": "2294",
+							"productContext": {
+								"catOut": "IC",
+								"catOutS": "IC",
+								"catCode": "1",
+								"catOutL": "Intercity",
+								"catIn": "IC",
+								"num": "2294",
+								"name": "IC  2294"
+							},
+							"ico": {
+								"shp": "1",
+								"res": "prod_ic",
+								"sty": "1",
+								"bg": {
+									"r": 89,
+									"b": 87,
+									"g": 87,
+									"a": 255
+								},
+								"fg": {
+									"r": 255,
+									"b": 255,
+									"g": 255,
+									"a": 255
+								}
+							},
+							"productMask": {
+								"integerValue": 2
+							},
+							"name": "IC 2294"
+						},
+						"dInS": 1,
+						"aCaS": 0,
+						"aPlatformS": {
+							"type": "2",
+							"text": "1"
+						},
+						"loc": {
+							"mapSelectable": true,
+							"currentLocationType": 0,
+							"productsMask": {
+								"integerValue": 571
+							},
+							"crd": {
+								"x": 8616646,
+								"coordSystem": {
+									"dim": 0,
+									"identifier": "standard",
+									"type": "1",
+									"index": 0
+								},
+								"y": 49681420,
+								"layer": {
+									"identifier": "standard",
+									"annotationCount": 0,
+									"name": "standard",
+									"index": 0
+								},
+								"z": 0,
+								"type": "1"
+							},
+							"wt": 0,
+							"isMainMast": false,
+							"name": "Bensheim",
+							"type": "3",
+							"state": "1",
+							"extId": "8000031",
+							"meta": false,
+							"dist": 0,
+							"lid": "A=1@O=Bensheim@X=8616718@Y=49681330@U=80@L=8000031@",
+							"entry": false,
+							"timestamp": "2020-11-28T14:42:41Z",
+							"isSelectable": true,
+							"ico": {
+								"shp": "1",
+								"res": "prod_ice",
+								"sty": "1",
+								"bg": {
+									"r": 89,
+									"b": 87,
+									"g": 87,
+									"a": 255
+								},
+								"fg": {
+									"r": 255,
+									"b": 255,
+									"g": 255,
+									"a": 255
+								}
+							}
+						},
+						"aTimeS": "2020-11-28T18:08:00Z"
+					},
+					{
+						"aOutS": 1,
+						"isAdd": false,
+						"dCncl": false,
+						"aPlatfCh": false,
+						"dInR": true,
+						"idx": 4,
+						"dCaS": 0,
+						"aOutR": true,
+						"aCncl": false,
+						"isImp": false,
+						"dPlatfCh": false,
+						"aProd": {
+							"number": "2294",
+							"productContext": {
+								"catOut": "IC",
+								"catOutS": "IC",
+								"catCode": "1",
+								"catOutL": "Intercity",
+								"catIn": "IC",
+								"num": "2294",
+								"name": "IC  2294"
+							},
+							"ico": {
+								"shp": "1",
+								"res": "prod_ic",
+								"sty": "1",
+								"bg": {
+									"r": 89,
+									"b": 87,
+									"g": 87,
+									"a": 255
+								},
+								"fg": {
+									"r": 255,
+									"b": 255,
+									"g": 255,
+									"a": 255
+								}
+							},
+							"productMask": {
+								"integerValue": 2
+							},
+							"name": "IC 2294"
+						},
+						"dInS": 1,
+						"aCaS": 0,
+						"aPlatformS": {
+							"type": "2",
+							"text": "5"
+						},
+						"loc": {
+							"mapSelectable": true,
+							"currentLocationType": 0,
+							"productsMask": {
+								"integerValue": 319
+							},
+							"crd": {
+								"x": 8629707,
+								"coordSystem": {
+									"dim": 0,
+									"identifier": "standard",
+									"type": "1",
+									"index": 0
+								},
+								"y": 49872549,
+								"layer": {
+									"identifier": "standard",
+									"annotationCount": 0,
+									"name": "standard",
+									"index": 0
+								},
+								"z": 0,
+								"type": "1"
+							},
+							"wt": 0,
+							"isMainMast": false,
+							"name": "Darmstadt Hbf",
+							"type": "3",
+							"state": "1",
+							"extId": "8000068",
+							"meta": false,
+							"dist": 0,
+							"lid": "A=1@O=Darmstadt Hbf@X=8629635@Y=49872504@U=80@L=8000068@",
+							"entry": false,
+							"timestamp": "2020-11-28T14:42:41Z",
+							"isSelectable": true,
+							"ico": {
+								"shp": "1",
+								"res": "prod_ice",
+								"sty": "1",
+								"bg": {
+									"r": 89,
+									"b": 87,
+									"g": 87,
+									"a": 255
+								},
+								"fg": {
+									"r": 255,
+									"b": 255,
+									"g": 255,
+									"a": 255
+								}
+							}
+						},
+						"aTimeS": "2020-11-28T18:22:00Z"
+					}
+				],
+				"isRepLate": false,
+				"summaryLineDrawStyle": {
+					"startIcon": {
+						"shp": "1",
+						"res": "prod_ic",
+						"sty": "1",
+						"bg": {
+							"r": 89,
+							"b": 87,
+							"g": 87,
+							"a": 255
+						},
+						"fg": {
+							"r": 255,
+							"b": 255,
+							"g": 255,
+							"a": 255
+						}
+					},
+					"bg": {
+						"r": 89,
+						"b": 87,
+						"g": 87,
+						"a": 255
+					},
+					"type": "4"
+				},
+				"isDepGeo": false,
+				"isBase": false,
+				"approxDelay": false,
+				"jid": "1|181080|0|80|28112020",
+				"procRT": 0,
+				"isPosRep": false,
+				"chRatingRT": 0,
+				"status": "1",
+				"resultLineDrawStyle": {
+					"bg": {
+						"r": 89,
+						"b": 87,
+						"g": 87,
+						"a": 255
+					},
+					"type": "4"
+				},
+				"isRepPosNotOnStopL": false,
+				"isPartActv": false,
+				"isWait": false,
+				"isRchbl": true,
+				"isCncl": false,
+				"proc": 0,
+				"isOutputStopLocationName": false,
+				"polylineGroup": {
+					"layer": {
+						"identifier": "standard",
+						"annotationCount": 0,
+						"name": "standard",
+						"index": 0
+					},
+					"coordSystem": {
+						"dim": 0,
+						"identifier": "standard",
+						"type": "1",
+						"index": 0
+					},
+					"polylineList": [
+						{
+							"dim": 3,
+							"lineDrawStyle": {
+								"startIcon": {
+									"shp": "1",
+									"res": "prod_ic",
+									"sty": "1",
+									"bg": {
+										"r": 89,
+										"b": 87,
+										"g": 87,
+										"a": 255
+									},
+									"fg": {
+										"r": 255,
+										"b": 255,
+										"g": 255,
+										"a": 255
+									}
+								},
+								"bg": {
+									"r": 89,
+									"b": 87,
+									"g": 87,
+									"a": 255
+								},
+								"type": "4"
+							},
+							"crdEncS": "NNNNNLNNNMNMNNNKNNNMNMNMNLMNMMKNMMNNKNMNLLMNKNMNKNNNMKNNNNKNKNLNNKKNKNLNNKNNNKMKNNKNKNNMNLMNNNNNNMNNNMKNMNNKNNNNNNNNNNNNLNNNNNNNNNNMNNMNNNNNNNNLNMNMNNNNNKNNN",
+							"type": "1",
+							"crdEncF": "?????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????",
+							"crdEncZ": "?????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????",
+							"delta": true,
+							"crdEncYX": "kcplHwl}s@SU`@mAyC_DiA}@ZgB@iC{@eMsBwSwBoI{Cc[YHXIcBeN??w@MyG^yAqC??sBUgRrDkUfAgD|@wCvCuN~GwIzCuDn@cDjBsB~DmFhQw@hBgAnAsA`@oDu@yCV??{DfBwAPeX[eDl@uDlCyNzGgXxQyS|KkF`EeAvAsAnFg@hGqCxIy@|A??wClCaJjA{InCskAlYmu@bW??iNnGmDdAaJxAyOMif@Mq`@tAwa@d@??}KLeJc@kG@iUrBgJXsDIoV{D??_C]qDBuTbHcJj@oDk@oLyD{LuAy@c@??_EwBmDgAqDM_MTsTwGyOWoDo@yl@oVkKqFyDu@??oOwBe@tDeKkE??gLgFaGgA??LtBkIrCexCvtA_TlKuIbDaMdC??sh@jFiyA~P??ik@fH??kNfE??g~B|u@??gc@rN??_mCn|@cg@zRyLxB}O|A?p@qMFurBxS??_qC~X??uyAdO??{aBnPgMt@wGS??_GaAuh@gP??}cHayB??co@eS@AA@wHaCe_Cmt@}IuBaMk@eJn@{IxBaNdG??cz@h_@yVjGmGv@}F`@mCp@eJz@?Q"
+						}
+					]
+				},
+				"dirGeo": 0,
+				"isDep": true,
+				"dirTxt": "Frankfurt(Main)Hbf",
+				"ctxRecon": "T$A=1@O=Heidelberg Hbf@L=8000156@a=128@$A=1@O=Darmstadt Hbf@L=8000068@a=128@$202011281646$202011281722$IC  2294$$1$$$",
+				"timestamp": "2020-11-28T14:42:41Z"
+			},
+			"type": "2",
+			"arr": {
+				"aOutS": 1,
+				"isAdd": false,
+				"dCncl": false,
+				"aPlatfCh": false,
+				"dInR": true,
+				"idx": 4,
+				"dCaS": 0,
+				"aOutR": true,
+				"aCncl": false,
+				"isImp": false,
+				"dPlatfCh": false,
+				"aProd": {
+					"number": "2294",
+					"productContext": {
+						"catOut": "IC",
+						"catOutS": "IC",
+						"catCode": "1",
+						"catOutL": "Intercity",
+						"catIn": "IC",
+						"num": "2294",
+						"name": "IC  2294"
+					},
+					"ico": {
+						"shp": "1",
+						"res": "prod_ic",
+						"sty": "1",
+						"bg": {
+							"r": 89,
+							"b": 87,
+							"g": 87,
+							"a": 255
+						},
+						"fg": {
+							"r": 255,
+							"b": 255,
+							"g": 255,
+							"a": 255
+						}
+					},
+					"productMask": {
+						"integerValue": 2
+					},
+					"name": "IC 2294"
+				},
+				"dInS": 1,
+				"aCaS": 0,
+				"aPlatformS": {
+					"type": "2",
+					"text": "5"
+				},
+				"loc": {
+					"mapSelectable": true,
+					"currentLocationType": 0,
+					"productsMask": {
+						"integerValue": 319
+					},
+					"crd": {
+						"x": 8629707,
+						"coordSystem": {
+							"dim": 0,
+							"identifier": "standard",
+							"type": "1",
+							"index": 0
+						},
+						"y": 49872549,
+						"layer": {
+							"identifier": "standard",
+							"annotationCount": 0,
+							"name": "standard",
+							"index": 0
+						},
+						"z": 0,
+						"type": "1"
+					},
+					"wt": 0,
+					"isMainMast": false,
+					"name": "Darmstadt Hbf",
+					"type": "3",
+					"state": "1",
+					"extId": "8000068",
+					"meta": false,
+					"dist": 0,
+					"lid": "A=1@O=Darmstadt Hbf@X=8629635@Y=49872504@U=80@L=8000068@",
+					"entry": false,
+					"timestamp": "2020-11-28T14:42:41Z",
+					"isSelectable": true,
+					"ico": {
+						"shp": "1",
+						"res": "prod_ice",
+						"sty": "1",
+						"bg": {
+							"r": 89,
+							"b": 87,
+							"g": 87,
+							"a": 255
+						},
+						"fg": {
+							"r": 255,
+							"b": 255,
+							"g": 255,
+							"a": 255
+						}
+					}
+				},
+				"aTimeS": "2020-11-28T18:22:00Z"
+			},
+			"reservationState": 0,
+			"duration": 2160,
+			"isBadSection": false
+		},
+		{
+			"isPartOfNotReachableConnection": false,
+			"hide": false,
+			"dep": {
+				"aOutS": 1,
+				"isAdd": false,
+				"dCncl": false,
+				"aPlatfCh": false,
+				"dTimeS": "2020-11-28T18:32:00Z",
+				"dInR": true,
+				"dProd": {
+					"number": "28725",
+					"nameShort": "HLB RB75",
+					"productContext": {
+						"catOut": "HLB",
+						"catOutS": "DPN",
+						"catCode": "3",
+						"catOutL": "Hessische Landesbahn",
+						"catIn": "DPN",
+						"num": "28725",
+						"name": "HLB28725",
+						"addName": "HLB RB75"
+					},
+					"ico": {
+						"shp": "1",
+						"res": "prod_reg",
+						"sty": "1",
+						"bg": {
+							"r": 89,
+							"b": 87,
+							"g": 87,
+							"a": 255
+						},
+						"fg": {
+							"r": 255,
+							"b": 255,
+							"g": 255,
+							"a": 255
+						}
+					},
+					"productMask": {
+						"integerValue": 8
+					},
+					"addName": "HLB RB75",
+					"name": "HLB RB75"
+				},
+				"idx": 9,
+				"dCaS": 0,
+				"aOutR": true,
+				"aCncl": false,
+				"dPlatformS": {
+					"type": "2",
+					"text": "8"
+				},
+				"isImp": false,
+				"dPlatfCh": false,
+				"dTimeR": "2020-11-28T18:32:00Z",
+				"dInS": 1,
+				"aCaS": 0,
+				"loc": {
+					"mapSelectable": true,
+					"currentLocationType": 0,
+					"productsMask": {
+						"integerValue": 319
+					},
+					"crd": {
+						"x": 8629707,
+						"coordSystem": {
+							"dim": 0,
+							"identifier": "standard",
+							"type": "1",
+							"index": 0
+						},
+						"y": 49872549,
+						"layer": {
+							"identifier": "standard",
+							"annotationCount": 0,
+							"name": "standard",
+							"index": 0
+						},
+						"z": 0,
+						"type": "1"
+					},
+					"wt": 0,
+					"isMainMast": false,
+					"name": "Darmstadt Hbf",
+					"type": "3",
+					"state": "1",
+					"extId": "8000068",
+					"meta": false,
+					"dist": 0,
+					"lid": "A=1@O=Darmstadt Hbf@X=8629635@Y=49872504@U=80@L=8000068@",
+					"entry": false,
+					"timestamp": "2020-11-28T14:42:41Z",
+					"isSelectable": true,
+					"ico": {
+						"shp": "1",
+						"res": "prod_ice",
+						"sty": "1",
+						"bg": {
+							"r": 89,
+							"b": 87,
+							"g": 87,
+							"a": 255
+						},
+						"fg": {
+							"r": 255,
+							"b": 255,
+							"g": 255,
+							"a": 255
+						}
+					}
+				}
+			},
+			"jny": {
+				"isPartCncl": false,
+				"chRatingSoll": 0,
+				"isRedir": false,
+				"dist": 0,
+				"isFallbackOnRepPos": false,
+				"subscr": "2",
+				"chDuration": 9,
+				"prod": {
+					"number": "28725",
+					"nameShort": "HLB RB75",
+					"productContext": {
+						"catOut": "HLB",
+						"catOutS": "DPN",
+						"catCode": "3",
+						"catOutL": "Hessische Landesbahn",
+						"catIn": "DPN",
+						"num": "28725",
+						"name": "HLB28725",
+						"addName": "HLB RB75"
+					},
+					"ico": {
+						"shp": "1",
+						"res": "prod_reg",
+						"sty": "1",
+						"bg": {
+							"r": 89,
+							"b": 87,
+							"g": 87,
+							"a": 255
+						},
+						"fg": {
+							"r": 255,
+							"b": 255,
+							"g": 255,
+							"a": 255
+						}
+					},
+					"productMask": {
+						"integerValue": 8
+					},
+					"addName": "HLB RB75",
+					"name": "HLB RB75"
+				},
+				"msgListElement": [
+					{
+						"prio": 0,
+						"type": "2",
+						"minor": 0,
+						"tagList": [
+							"RES_JNY_DTL_H3"
+						],
+						"rem": {
+							"prio": 0,
+							"txtN": "HLB28725",
+							"code": "pname",
+							"ico": {
+								"shp": "1",
+								"res": "attr_info",
+								"sty": "1"
+							},
+							"type": "2"
+						},
+						"dspl": "1",
+						"sort": 1073741824
+					},
+					{
+						"fIdx": 9,
+						"prio": 0,
+						"tIdx": 10,
+						"type": "2",
+						"minor": 0,
+						"tagList": [
+							"RES_JNY_DTL"
+						],
+						"rem": {
+							"prio": 200,
+							"txtN": "Obligation to cover nose and mouth",
+							"code": "PB",
+							"ico": {
+								"shp": "1",
+								"res": "attr_info",
+								"sty": "1"
+							},
+							"type": "2"
+						},
+						"dspl": "1",
+						"sort": 1126170624
+					},
+					{
+						"fIdx": 9,
+						"prio": 0,
+						"tIdx": 10,
+						"type": "2",
+						"minor": 0,
+						"tagList": [
+							"RES_JNY_DTL_L"
+						],
+						"rem": {
+							"prio": 260,
+							"txtN": "Number of bicycles conveyed limited",
+							"code": "FB",
+							"ico": {
+								"shp": "1",
+								"res": "attr_bike",
+								"sty": "1"
+							},
+							"type": "2"
+						},
+						"dspl": "1",
+						"sort": 1141899264
+					}
+				],
+				"stopL": [
+					{
+						"aOutS": 1,
+						"isAdd": false,
+						"dCncl": false,
+						"aPlatfCh": false,
+						"dTimeS": "2020-11-28T18:32:00Z",
+						"dInR": true,
+						"dProd": {
+							"number": "28725",
+							"nameShort": "HLB RB75",
+							"productContext": {
+								"catOut": "HLB",
+								"catOutS": "DPN",
+								"catCode": "3",
+								"catOutL": "Hessische Landesbahn",
+								"catIn": "DPN",
+								"num": "28725",
+								"name": "HLB28725",
+								"addName": "HLB RB75"
+							},
+							"ico": {
+								"shp": "1",
+								"res": "prod_reg",
+								"sty": "1",
+								"bg": {
+									"r": 89,
+									"b": 87,
+									"g": 87,
+									"a": 255
+								},
+								"fg": {
+									"r": 255,
+									"b": 255,
+									"g": 255,
+									"a": 255
+								}
+							},
+							"productMask": {
+								"integerValue": 8
+							},
+							"addName": "HLB RB75",
+							"name": "HLB RB75"
+						},
+						"idx": 9,
+						"dCaS": 0,
+						"aOutR": true,
+						"aCncl": false,
+						"dPlatformS": {
+							"type": "2",
+							"text": "8"
+						},
+						"isImp": false,
+						"dPlatfCh": false,
+						"dTimeR": "2020-11-28T18:32:00Z",
+						"dInS": 1,
+						"aCaS": 0,
+						"loc": {
+							"mapSelectable": true,
+							"currentLocationType": 0,
+							"productsMask": {
+								"integerValue": 319
+							},
+							"crd": {
+								"x": 8629707,
+								"coordSystem": {
+									"dim": 0,
+									"identifier": "standard",
+									"type": "1",
+									"index": 0
+								},
+								"y": 49872549,
+								"layer": {
+									"identifier": "standard",
+									"annotationCount": 0,
+									"name": "standard",
+									"index": 0
+								},
+								"z": 0,
+								"type": "1"
+							},
+							"wt": 0,
+							"isMainMast": false,
+							"name": "Darmstadt Hbf",
+							"type": "3",
+							"state": "1",
+							"extId": "8000068",
+							"meta": false,
+							"dist": 0,
+							"lid": "A=1@O=Darmstadt Hbf@X=8629635@Y=49872504@U=80@L=8000068@",
+							"entry": false,
+							"timestamp": "2020-11-28T14:42:41Z",
+							"isSelectable": true,
+							"ico": {
+								"shp": "1",
+								"res": "prod_ice",
+								"sty": "1",
+								"bg": {
+									"r": 89,
+									"b": 87,
+									"g": 87,
+									"a": 255
+								},
+								"fg": {
+									"r": 255,
+									"b": 255,
+									"g": 255,
+									"a": 255
+								}
+							}
+						}
+					},
+					{
+						"aOutS": 1,
+						"isAdd": false,
+						"dCncl": false,
+						"aPlatfCh": false,
+						"dInR": true,
+						"idx": 10,
+						"dCaS": 0,
+						"aTimeR": "2020-11-28T18:35:00Z",
+						"aOutR": true,
+						"aCncl": false,
+						"isImp": false,
+						"dPlatfCh": false,
+						"aProd": {
+							"number": "28725",
+							"nameShort": "HLB RB75",
+							"productContext": {
+								"catOut": "HLB",
+								"catOutS": "DPN",
+								"catCode": "3",
+								"catOutL": "Hessische Landesbahn",
+								"catIn": "DPN",
+								"num": "28725",
+								"name": "HLB28725",
+								"addName": "HLB RB75"
+							},
+							"ico": {
+								"shp": "1",
+								"res": "prod_reg",
+								"sty": "1",
+								"bg": {
+									"r": 89,
+									"b": 87,
+									"g": 87,
+									"a": 255
+								},
+								"fg": {
+									"r": 255,
+									"b": 255,
+									"g": 255,
+									"a": 255
+								}
+							},
+							"productMask": {
+								"integerValue": 8
+							},
+							"addName": "HLB RB75",
+							"name": "HLB RB75"
+						},
+						"dInS": 1,
+						"aCaS": 0,
+						"aPlatformS": {
+							"type": "2",
+							"text": "3"
+						},
+						"loc": {
+							"mapSelectable": true,
+							"currentLocationType": 0,
+							"productsMask": {
+								"integerValue": 296
+							},
+							"crd": {
+								"x": 8653753,
+								"coordSystem": {
+									"dim": 0,
+									"identifier": "standard",
+									"type": "1",
+									"index": 0
+								},
+								"y": 49892118,
+								"layer": {
+									"identifier": "standard",
+									"annotationCount": 0,
+									"name": "standard",
+									"index": 0
+								},
+								"z": 0,
+								"type": "1"
+							},
+							"wt": 0,
+							"isMainMast": false,
+							"name": "Darmstadt Nord",
+							"type": "3",
+							"state": "1",
+							"extId": "8001375",
+							"meta": false,
+							"dist": 0,
+							"lid": "A=1@O=Darmstadt Nord@X=8654311@Y=49892136@U=80@L=8001375@",
+							"entry": false,
+							"timestamp": "2020-11-28T14:42:41Z",
+							"isSelectable": true,
+							"ico": {
+								"shp": "1",
+								"res": "prod_reg",
+								"sty": "1",
+								"bg": {
+									"r": 89,
+									"b": 87,
+									"g": 87,
+									"a": 255
+								},
+								"fg": {
+									"r": 255,
+									"b": 255,
+									"g": 255,
+									"a": 255
+								}
+							}
+						},
+						"aTimeS": "2020-11-28T18:35:00Z"
+					}
+				],
+				"isRepLate": false,
+				"summaryLineDrawStyle": {
+					"startIcon": {
+						"shp": "1",
+						"res": "prod_reg",
+						"sty": "1",
+						"bg": {
+							"r": 89,
+							"b": 87,
+							"g": 87,
+							"a": 255
+						},
+						"fg": {
+							"r": 255,
+							"b": 255,
+							"g": 255,
+							"a": 255
+						}
+					},
+					"bg": {
+						"r": 89,
+						"b": 87,
+						"g": 87,
+						"a": 255
+					},
+					"type": "4"
+				},
+				"isDepGeo": false,
+				"isBase": false,
+				"approxDelay": false,
+				"jid": "1|257577|3|80|28112020",
+				"procRT": 0,
+				"isPosRep": false,
+				"chRatingRT": 0,
+				"status": "1",
+				"resultLineDrawStyle": {
+					"bg": {
+						"r": 89,
+						"b": 87,
+						"g": 87,
+						"a": 255
+					},
+					"type": "4"
+				},
+				"isRepPosNotOnStopL": false,
+				"isPartActv": false,
+				"isWait": false,
+				"isRchbl": true,
+				"isCncl": false,
+				"proc": 0,
+				"isOutputStopLocationName": false,
+				"polylineGroup": {
+					"layer": {
+						"identifier": "standard",
+						"annotationCount": 0,
+						"name": "standard",
+						"index": 0
+					},
+					"coordSystem": {
+						"dim": 0,
+						"identifier": "standard",
+						"type": "1",
+						"index": 0
+					},
+					"polylineList": [
+						{
+							"dim": 3,
+							"lineDrawStyle": {
+								"startIcon": {
+									"shp": "1",
+									"res": "prod_reg",
+									"sty": "1",
+									"bg": {
+										"r": 89,
+										"b": 87,
+										"g": 87,
+										"a": 255
+									},
+									"fg": {
+										"r": 255,
+										"b": 255,
+										"g": 255,
+										"a": 255
+									}
+								},
+								"bg": {
+									"r": 89,
+									"b": 87,
+									"g": 87,
+									"a": 255
+								},
+								"type": "4"
+							},
+							"crdEncS": "NNNLNNNMNMNLNMNMNNNN",
+							"type": "1",
+							"crdEncF": "????????????????????",
+							"crdEncZ": "????????????????????",
+							"delta": true,
+							"crdEncYX": "mvkoHunts@Cg@sRhBqZlGkN~Ds@mHh@dGqGjAoDIgFkAcEcCwC{CwI{MkJkRaBkF_A_G]}K~@odAs@{RRgC"
+						}
+					]
+				},
+				"dirGeo": 0,
+				"isDep": true,
+				"dirTxt": "Aschaffenburg Hbf",
+				"ctxRecon": "T$A=1@O=Darmstadt Hbf@L=8000068@a=128@$A=1@O=Darmstadt Nord@L=8001375@a=128@$202011281732$202011281735$HLB28725$$1$$$",
+				"timestamp": "2020-11-28T14:42:41Z"
+			},
+			"type": "2",
+			"arr": {
+				"aOutS": 1,
+				"isAdd": false,
+				"dCncl": false,
+				"aPlatfCh": false,
+				"dInR": true,
+				"idx": 10,
+				"dCaS": 0,
+				"aTimeR": "2020-11-28T18:35:00Z",
+				"aOutR": true,
+				"aCncl": false,
+				"isImp": false,
+				"dPlatfCh": false,
+				"aProd": {
+					"number": "28725",
+					"nameShort": "HLB RB75",
+					"productContext": {
+						"catOut": "HLB",
+						"catOutS": "DPN",
+						"catCode": "3",
+						"catOutL": "Hessische Landesbahn",
+						"catIn": "DPN",
+						"num": "28725",
+						"name": "HLB28725",
+						"addName": "HLB RB75"
+					},
+					"ico": {
+						"shp": "1",
+						"res": "prod_reg",
+						"sty": "1",
+						"bg": {
+							"r": 89,
+							"b": 87,
+							"g": 87,
+							"a": 255
+						},
+						"fg": {
+							"r": 255,
+							"b": 255,
+							"g": 255,
+							"a": 255
+						}
+					},
+					"productMask": {
+						"integerValue": 8
+					},
+					"addName": "HLB RB75",
+					"name": "HLB RB75"
+				},
+				"dInS": 1,
+				"aCaS": 0,
+				"aPlatformS": {
+					"type": "2",
+					"text": "3"
+				},
+				"loc": {
+					"mapSelectable": true,
+					"currentLocationType": 0,
+					"productsMask": {
+						"integerValue": 296
+					},
+					"crd": {
+						"x": 8653753,
+						"coordSystem": {
+							"dim": 0,
+							"identifier": "standard",
+							"type": "1",
+							"index": 0
+						},
+						"y": 49892118,
+						"layer": {
+							"identifier": "standard",
+							"annotationCount": 0,
+							"name": "standard",
+							"index": 0
+						},
+						"z": 0,
+						"type": "1"
+					},
+					"wt": 0,
+					"isMainMast": false,
+					"name": "Darmstadt Nord",
+					"type": "3",
+					"state": "1",
+					"extId": "8001375",
+					"meta": false,
+					"dist": 0,
+					"lid": "A=1@O=Darmstadt Nord@X=8654311@Y=49892136@U=80@L=8001375@",
+					"entry": false,
+					"timestamp": "2020-11-28T14:42:41Z",
+					"isSelectable": true,
+					"ico": {
+						"shp": "1",
+						"res": "prod_reg",
+						"sty": "1",
+						"bg": {
+							"r": 89,
+							"b": 87,
+							"g": 87,
+							"a": 255
+						},
+						"fg": {
+							"r": 255,
+							"b": 255,
+							"g": 255,
+							"a": 255
+						}
+					}
+				},
+				"aTimeS": "2020-11-28T18:35:00Z"
+			},
+			"reservationState": 0,
+			"duration": 180,
+			"isBadSection": false
+		},
+		{
+			"isPartOfNotReachableConnection": false,
+			"hide": false,
+			"dep": {
+				"aOutS": 1,
+				"isAdd": false,
+				"dCncl": false,
+				"aPlatfCh": false,
+				"dTimeS": "2020-11-28T18:44:00Z",
+				"dInR": true,
+				"dProd": {
+					"number": "25171",
+					"nameShort": "VIA RB82",
+					"productContext": {
+						"catOut": "VIA",
+						"catOutS": "DPN",
+						"catCode": "3",
+						"catOutL": "VIAS Rail GmbH",
+						"catIn": "DPN",
+						"num": "25171",
+						"name": "VIA25171",
+						"addName": "VIA RB82"
+					},
+					"ico": {
+						"shp": "1",
+						"res": "prod_reg",
+						"sty": "1",
+						"bg": {
+							"r": 89,
+							"b": 87,
+							"g": 87,
+							"a": 255
+						},
+						"fg": {
+							"r": 255,
+							"b": 255,
+							"g": 255,
+							"a": 255
+						}
+					},
+					"productMask": {
+						"integerValue": 8
+					},
+					"addName": "VIA RB82",
+					"name": "VIA RB82"
+				},
+				"idx": 1,
+				"dCaS": 0,
+				"aOutR": true,
+				"aCncl": false,
+				"dPlatformS": {
+					"type": "2",
+					"text": "4"
+				},
+				"isImp": false,
+				"dPlatfCh": false,
+				"dInS": 1,
+				"aCaS": 0,
+				"loc": {
+					"mapSelectable": true,
+					"currentLocationType": 0,
+					"productsMask": {
+						"integerValue": 296
+					},
+					"crd": {
+						"x": 8653753,
+						"coordSystem": {
+							"dim": 0,
+							"identifier": "standard",
+							"type": "1",
+							"index": 0
+						},
+						"y": 49892118,
+						"layer": {
+							"identifier": "standard",
+							"annotationCount": 0,
+							"name": "standard",
+							"index": 0
+						},
+						"z": 0,
+						"type": "1"
+					},
+					"wt": 0,
+					"isMainMast": false,
+					"name": "Darmstadt Nord",
+					"type": "3",
+					"state": "1",
+					"extId": "8001375",
+					"meta": false,
+					"dist": 0,
+					"lid": "A=1@O=Darmstadt Nord@X=8654311@Y=49892136@U=80@L=8001375@",
+					"entry": false,
+					"timestamp": "2020-11-28T14:42:41Z",
+					"isSelectable": true,
+					"ico": {
+						"shp": "1",
+						"res": "prod_reg",
+						"sty": "1",
+						"bg": {
+							"r": 89,
+							"b": 87,
+							"g": 87,
+							"a": 255
+						},
+						"fg": {
+							"r": 255,
+							"b": 255,
+							"g": 255,
+							"a": 255
+						}
+					}
+				}
+			},
+			"jny": {
+				"isPartCncl": false,
+				"chRatingSoll": 0,
+				"isRedir": false,
+				"dist": 0,
+				"isFallbackOnRepPos": false,
+				"subscr": "2",
+				"chDuration": 0,
+				"prod": {
+					"number": "25171",
+					"nameShort": "VIA RB82",
+					"productContext": {
+						"catOut": "VIA",
+						"catOutS": "DPN",
+						"catCode": "3",
+						"catOutL": "VIAS Rail GmbH",
+						"catIn": "DPN",
+						"num": "25171",
+						"name": "VIA25171",
+						"addName": "VIA RB82"
+					},
+					"ico": {
+						"shp": "1",
+						"res": "prod_reg",
+						"sty": "1",
+						"bg": {
+							"r": 89,
+							"b": 87,
+							"g": 87,
+							"a": 255
+						},
+						"fg": {
+							"r": 255,
+							"b": 255,
+							"g": 255,
+							"a": 255
+						}
+					},
+					"productMask": {
+						"integerValue": 8
+					},
+					"addName": "VIA RB82",
+					"name": "VIA RB82"
+				},
+				"msgListElement": [
+					{
+						"prio": 0,
+						"type": "2",
+						"minor": 0,
+						"tagList": [
+							"RES_JNY_DTL_H3"
+						],
+						"rem": {
+							"prio": 0,
+							"txtN": "VIA25171",
+							"code": "pname",
+							"ico": {
+								"shp": "1",
+								"res": "attr_info",
+								"sty": "1"
+							},
+							"type": "2"
+						},
+						"dspl": "1",
+						"sort": 1073741824
+					},
+					{
+						"fIdx": 1,
+						"prio": 0,
+						"tIdx": 16,
+						"type": "2",
+						"minor": 0,
+						"tagList": [
+							"RES_JNY_DTL_L"
+						],
+						"rem": {
+							"prio": 260,
+							"txtN": "Number of bicycles conveyed limited",
+							"code": "FB",
+							"ico": {
+								"shp": "1",
+								"res": "attr_bike",
+								"sty": "1"
+							},
+							"type": "2"
+						},
+						"dspl": "1",
+						"sort": 1141899264
+					},
+					{
+						"fIdx": 1,
+						"prio": 0,
+						"tIdx": 16,
+						"type": "2",
+						"minor": 0,
+						"tagList": [
+							"RES_JNY_DTL"
+						],
+						"rem": {
+							"prio": 560,
+							"txtN": "vehicle-mounted accessaid",
+							"code": "EH",
+							"ico": {
+								"shp": "1",
+								"res": "attr_info",
+								"sty": "1"
+							},
+							"type": "2"
+						},
+						"dspl": "1",
+						"sort": 1220542464
+					},
+					{
+						"fIdx": 1,
+						"prio": 0,
+						"tIdx": 16,
+						"type": "2",
+						"minor": 0,
+						"tagList": [
+							"RES_JNY_DTL"
+						],
+						"rem": {
+							"prio": 610,
+							"txtN": "air conditioning",
+							"code": "KL",
+							"ico": {
+								"shp": "1",
+								"res": "attr_info",
+								"sty": "1"
+							},
+							"type": "2"
+						},
+						"dspl": "1",
+						"sort": 1233649664
+					}
+				],
+				"stopL": [
+					{
+						"aOutS": 1,
+						"isAdd": false,
+						"dCncl": false,
+						"aPlatfCh": false,
+						"dTimeS": "2020-11-28T18:44:00Z",
+						"dInR": true,
+						"dProd": {
+							"number": "25171",
+							"nameShort": "VIA RB82",
+							"productContext": {
+								"catOut": "VIA",
+								"catOutS": "DPN",
+								"catCode": "3",
+								"catOutL": "VIAS Rail GmbH",
+								"catIn": "DPN",
+								"num": "25171",
+								"name": "VIA25171",
+								"addName": "VIA RB82"
+							},
+							"ico": {
+								"shp": "1",
+								"res": "prod_reg",
+								"sty": "1",
+								"bg": {
+									"r": 89,
+									"b": 87,
+									"g": 87,
+									"a": 255
+								},
+								"fg": {
+									"r": 255,
+									"b": 255,
+									"g": 255,
+									"a": 255
+								}
+							},
+							"productMask": {
+								"integerValue": 8
+							},
+							"addName": "VIA RB82",
+							"name": "VIA RB82"
+						},
+						"idx": 1,
+						"dCaS": 0,
+						"aOutR": true,
+						"aCncl": false,
+						"dPlatformS": {
+							"type": "2",
+							"text": "4"
+						},
+						"isImp": false,
+						"dPlatfCh": false,
+						"dInS": 1,
+						"aCaS": 0,
+						"loc": {
+							"mapSelectable": true,
+							"currentLocationType": 0,
+							"productsMask": {
+								"integerValue": 296
+							},
+							"crd": {
+								"x": 8653753,
+								"coordSystem": {
+									"dim": 0,
+									"identifier": "standard",
+									"type": "1",
+									"index": 0
+								},
+								"y": 49892118,
+								"layer": {
+									"identifier": "standard",
+									"annotationCount": 0,
+									"name": "standard",
+									"index": 0
+								},
+								"z": 0,
+								"type": "1"
+							},
+							"wt": 0,
+							"isMainMast": false,
+							"name": "Darmstadt Nord",
+							"type": "3",
+							"state": "1",
+							"extId": "8001375",
+							"meta": false,
+							"dist": 0,
+							"lid": "A=1@O=Darmstadt Nord@X=8654311@Y=49892136@U=80@L=8001375@",
+							"entry": false,
+							"timestamp": "2020-11-28T14:42:41Z",
+							"isSelectable": true,
+							"ico": {
+								"shp": "1",
+								"res": "prod_reg",
+								"sty": "1",
+								"bg": {
+									"r": 89,
+									"b": 87,
+									"g": 87,
+									"a": 255
+								},
+								"fg": {
+									"r": 255,
+									"b": 255,
+									"g": 255,
+									"a": 255
+								}
+							}
+						}
+					},
+					{
+						"aOutS": 1,
+						"isAdd": false,
+						"dCncl": false,
+						"aPlatfCh": false,
+						"dTimeS": "2020-11-28T18:48:00Z",
+						"dInR": true,
+						"dProd": {
+							"number": "25171",
+							"nameShort": "VIA RB82",
+							"productContext": {
+								"catOut": "VIA",
+								"catOutS": "DPN",
+								"catCode": "3",
+								"catOutL": "VIAS Rail GmbH",
+								"catIn": "DPN",
+								"num": "25171",
+								"name": "VIA25171",
+								"addName": "VIA RB82"
+							},
+							"ico": {
+								"shp": "1",
+								"res": "prod_reg",
+								"sty": "1",
+								"bg": {
+									"r": 89,
+									"b": 87,
+									"g": 87,
+									"a": 255
+								},
+								"fg": {
+									"r": 255,
+									"b": 255,
+									"g": 255,
+									"a": 255
+								}
+							},
+							"productMask": {
+								"integerValue": 8
+							},
+							"addName": "VIA RB82",
+							"name": "VIA RB82"
+						},
+						"idx": 2,
+						"dCaS": 0,
+						"aOutR": true,
+						"aCncl": false,
+						"dPlatformS": {
+							"type": "2",
+							"text": "1"
+						},
+						"isImp": false,
+						"dPlatfCh": false,
+						"aProd": {
+							"number": "25171",
+							"nameShort": "VIA RB82",
+							"productContext": {
+								"catOut": "VIA",
+								"catOutS": "DPN",
+								"catCode": "3",
+								"catOutL": "VIAS Rail GmbH",
+								"catIn": "DPN",
+								"num": "25171",
+								"name": "VIA25171",
+								"addName": "VIA RB82"
+							},
+							"ico": {
+								"shp": "1",
+								"res": "prod_reg",
+								"sty": "1",
+								"bg": {
+									"r": 89,
+									"b": 87,
+									"g": 87,
+									"a": 255
+								},
+								"fg": {
+									"r": 255,
+									"b": 255,
+									"g": 255,
+									"a": 255
+								}
+							},
+							"productMask": {
+								"integerValue": 8
+							},
+							"addName": "VIA RB82",
+							"name": "VIA RB82"
+						},
+						"dInS": 1,
+						"aCaS": 0,
+						"aPlatformS": {
+							"type": "2",
+							"text": "1"
+						},
+						"loc": {
+							"mapSelectable": true,
+							"currentLocationType": 0,
+							"productsMask": {
+								"integerValue": 40
+							},
+							"crd": {
+								"x": 8673772,
+								"coordSystem": {
+									"dim": 0,
+									"identifier": "standard",
+									"type": "1",
+									"index": 0
+								},
+								"y": 49874904,
+								"layer": {
+									"identifier": "standard",
+									"annotationCount": 0,
+									"name": "standard",
+									"index": 0
+								},
+								"z": 0,
+								"type": "1"
+							},
+							"wt": 0,
+							"isMainMast": false,
+							"name": "Darmstadt Ost",
+							"type": "3",
+							"state": "1",
+							"extId": "8001376",
+							"meta": false,
+							"dist": 0,
+							"lid": "A=1@O=Darmstadt Ost@X=8673871@Y=49874742@U=80@L=8001376@",
+							"entry": false,
+							"timestamp": "2020-11-28T14:42:41Z",
+							"isSelectable": true,
+							"ico": {
+								"shp": "1",
+								"res": "prod_reg",
+								"sty": "1",
+								"bg": {
+									"r": 89,
+									"b": 87,
+									"g": 87,
+									"a": 255
+								},
+								"fg": {
+									"r": 255,
+									"b": 255,
+									"g": 255,
+									"a": 255
+								}
+							}
+						},
+						"aTimeS": "2020-11-28T18:48:00Z"
+					},
+					{
+						"aOutS": 1,
+						"isAdd": false,
+						"dCncl": false,
+						"aPlatfCh": false,
+						"dTimeS": "2020-11-28T18:51:00Z",
+						"dInR": true,
+						"dProd": {
+							"number": "25171",
+							"nameShort": "VIA RB82",
+							"productContext": {
+								"catOut": "VIA",
+								"catOutS": "DPN",
+								"catCode": "3",
+								"catOutL": "VIAS Rail GmbH",
+								"catIn": "DPN",
+								"num": "25171",
+								"name": "VIA25171",
+								"addName": "VIA RB82"
+							},
+							"ico": {
+								"shp": "1",
+								"res": "prod_reg",
+								"sty": "1",
+								"bg": {
+									"r": 89,
+									"b": 87,
+									"g": 87,
+									"a": 255
+								},
+								"fg": {
+									"r": 255,
+									"b": 255,
+									"g": 255,
+									"a": 255
+								}
+							},
+							"productMask": {
+								"integerValue": 8
+							},
+							"addName": "VIA RB82",
+							"name": "VIA RB82"
+						},
+						"idx": 3,
+						"dCaS": 0,
+						"aOutR": true,
+						"aCncl": false,
+						"dPlatformS": {
+							"type": "2",
+							"text": "1"
+						},
+						"isImp": false,
+						"dPlatfCh": false,
+						"aProd": {
+							"number": "25171",
+							"nameShort": "VIA RB82",
+							"productContext": {
+								"catOut": "VIA",
+								"catOutS": "DPN",
+								"catCode": "3",
+								"catOutL": "VIAS Rail GmbH",
+								"catIn": "DPN",
+								"num": "25171",
+								"name": "VIA25171",
+								"addName": "VIA RB82"
+							},
+							"ico": {
+								"shp": "1",
+								"res": "prod_reg",
+								"sty": "1",
+								"bg": {
+									"r": 89,
+									"b": 87,
+									"g": 87,
+									"a": 255
+								},
+								"fg": {
+									"r": 255,
+									"b": 255,
+									"g": 255,
+									"a": 255
+								}
+							},
+							"productMask": {
+								"integerValue": 8
+							},
+							"addName": "VIA RB82",
+							"name": "VIA RB82"
+						},
+						"dInS": 1,
+						"aCaS": 0,
+						"aPlatformS": {
+							"type": "2",
+							"text": "1"
+						},
+						"loc": {
+							"mapSelectable": true,
+							"currentLocationType": 0,
+							"productsMask": {
+								"integerValue": 8
+							},
+							"crd": {
+								"x": 8687625,
+								"coordSystem": {
+									"dim": 0,
+									"identifier": "standard",
+									"type": "1",
+									"index": 0
+								},
+								"y": 49860881,
+								"layer": {
+									"identifier": "standard",
+									"annotationCount": 0,
+									"name": "standard",
+									"index": 0
+								},
+								"z": 0,
+								"type": "1"
+							},
+							"wt": 0,
+							"isMainMast": false,
+							"name": "Darmstadt TU-Lichtwiese",
+							"type": "3",
+							"state": "1",
+							"extId": "8001386",
+							"meta": false,
+							"dist": 0,
+							"lid": "A=1@O=Darmstadt TU-Lichtwiese@X=8687526@Y=49861043@U=80@L=8001386@",
+							"entry": false,
+							"timestamp": "2020-11-28T14:42:41Z",
+							"isSelectable": true,
+							"ico": {
+								"shp": "1",
+								"res": "prod_reg",
+								"sty": "1",
+								"bg": {
+									"r": 89,
+									"b": 87,
+									"g": 87,
+									"a": 255
+								},
+								"fg": {
+									"r": 255,
+									"b": 255,
+									"g": 255,
+									"a": 255
+								}
+							}
+						},
+						"aTimeS": "2020-11-28T18:50:00Z"
+					},
+					{
+						"aOutS": 1,
+						"isAdd": false,
+						"dCncl": false,
+						"aPlatfCh": false,
+						"dTimeS": "2020-11-28T18:54:00Z",
+						"dInR": true,
+						"dProd": {
+							"number": "25171",
+							"nameShort": "VIA RB82",
+							"productContext": {
+								"catOut": "VIA",
+								"catOutS": "DPN",
+								"catCode": "3",
+								"catOutL": "VIAS Rail GmbH",
+								"catIn": "DPN",
+								"num": "25171",
+								"name": "VIA25171",
+								"addName": "VIA RB82"
+							},
+							"ico": {
+								"shp": "1",
+								"res": "prod_reg",
+								"sty": "1",
+								"bg": {
+									"r": 89,
+									"b": 87,
+									"g": 87,
+									"a": 255
+								},
+								"fg": {
+									"r": 255,
+									"b": 255,
+									"g": 255,
+									"a": 255
+								}
+							},
+							"productMask": {
+								"integerValue": 8
+							},
+							"addName": "VIA RB82",
+							"name": "VIA RB82"
+						},
+						"idx": 4,
+						"dCaS": 0,
+						"aOutR": true,
+						"aCncl": false,
+						"dPlatformS": {
+							"type": "2",
+							"text": "1"
+						},
+						"isImp": false,
+						"dPlatfCh": false,
+						"aProd": {
+							"number": "25171",
+							"nameShort": "VIA RB82",
+							"productContext": {
+								"catOut": "VIA",
+								"catOutS": "DPN",
+								"catCode": "3",
+								"catOutL": "VIAS Rail GmbH",
+								"catIn": "DPN",
+								"num": "25171",
+								"name": "VIA25171",
+								"addName": "VIA RB82"
+							},
+							"ico": {
+								"shp": "1",
+								"res": "prod_reg",
+								"sty": "1",
+								"bg": {
+									"r": 89,
+									"b": 87,
+									"g": 87,
+									"a": 255
+								},
+								"fg": {
+									"r": 255,
+									"b": 255,
+									"g": 255,
+									"a": 255
+								}
+							},
+							"productMask": {
+								"integerValue": 8
+							},
+							"addName": "VIA RB82",
+							"name": "VIA RB82"
+						},
+						"dInS": 1,
+						"aCaS": 0,
+						"aPlatformS": {
+							"type": "2",
+							"text": "1"
+						},
+						"loc": {
+							"mapSelectable": true,
+							"currentLocationType": 0,
+							"productsMask": {
+								"integerValue": 40
+							},
+							"crd": {
+								"x": 8703329,
+								"coordSystem": {
+									"dim": 0,
+									"identifier": "standard",
+									"type": "1",
+									"index": 0
+								},
+								"y": 49832169,
+								"layer": {
+									"identifier": "standard",
+									"annotationCount": 0,
+									"name": "standard",
+									"index": 0
+								},
+								"z": 0,
+								"type": "1"
+							},
+							"wt": 0,
+							"isMainMast": false,
+							"name": "Mühltal",
+							"type": "3",
+							"state": "1",
+							"extId": "8004350",
+							"meta": false,
+							"dist": 0,
+							"lid": "A=1@O=Mühltal@X=8703320@Y=49832205@U=80@L=8004350@",
+							"entry": false,
+							"timestamp": "2020-11-28T14:42:41Z",
+							"isSelectable": true,
+							"ico": {
+								"shp": "1",
+								"res": "prod_reg",
+								"sty": "1",
+								"bg": {
+									"r": 89,
+									"b": 87,
+									"g": 87,
+									"a": 255
+								},
+								"fg": {
+									"r": 255,
+									"b": 255,
+									"g": 255,
+									"a": 255
+								}
+							}
+						},
+						"aTimeS": "2020-11-28T18:54:00Z"
+					},
+					{
+						"aOutS": 1,
+						"isAdd": false,
+						"dCncl": false,
+						"aPlatfCh": false,
+						"dTimeS": "2020-11-28T18:59:00Z",
+						"dInR": true,
+						"dProd": {
+							"number": "25171",
+							"nameShort": "VIA RB82",
+							"productContext": {
+								"catOut": "VIA",
+								"catOutS": "DPN",
+								"catCode": "3",
+								"catOutL": "VIAS Rail GmbH",
+								"catIn": "DPN",
+								"num": "25171",
+								"name": "VIA25171",
+								"addName": "VIA RB82"
+							},
+							"ico": {
+								"shp": "1",
+								"res": "prod_reg",
+								"sty": "1",
+								"bg": {
+									"r": 89,
+									"b": 87,
+									"g": 87,
+									"a": 255
+								},
+								"fg": {
+									"r": 255,
+									"b": 255,
+									"g": 255,
+									"a": 255
+								}
+							},
+							"productMask": {
+								"integerValue": 8
+							},
+							"addName": "VIA RB82",
+							"name": "VIA RB82"
+						},
+						"idx": 5,
+						"dCaS": 0,
+						"aOutR": true,
+						"aCncl": false,
+						"dPlatformS": {
+							"type": "2",
+							"text": "2"
+						},
+						"isImp": false,
+						"dPlatfCh": false,
+						"aProd": {
+							"number": "25171",
+							"nameShort": "VIA RB82",
+							"productContext": {
+								"catOut": "VIA",
+								"catOutS": "DPN",
+								"catCode": "3",
+								"catOutL": "VIAS Rail GmbH",
+								"catIn": "DPN",
+								"num": "25171",
+								"name": "VIA25171",
+								"addName": "VIA RB82"
+							},
+							"ico": {
+								"shp": "1",
+								"res": "prod_reg",
+								"sty": "1",
+								"bg": {
+									"r": 89,
+									"b": 87,
+									"g": 87,
+									"a": 255
+								},
+								"fg": {
+									"r": 255,
+									"b": 255,
+									"g": 255,
+									"a": 255
+								}
+							},
+							"productMask": {
+								"integerValue": 8
+							},
+							"addName": "VIA RB82",
+							"name": "VIA RB82"
+						},
+						"dInS": 1,
+						"aCaS": 0,
+						"aPlatformS": {
+							"type": "2",
+							"text": "2"
+						},
+						"loc": {
+							"mapSelectable": true,
+							"currentLocationType": 0,
+							"productsMask": {
+								"integerValue": 40
+							},
+							"crd": {
+								"x": 8743133,
+								"coordSystem": {
+									"dim": 0,
+									"identifier": "standard",
+									"type": "1",
+									"index": 0
+								},
+								"y": 49832062,
+								"layer": {
+									"identifier": "standard",
+									"annotationCount": 0,
+									"name": "standard",
+									"index": 0
+								},
+								"z": 0,
+								"type": "1"
+							},
+							"wt": 0,
+							"isMainMast": false,
+							"name": "Ober Ramstadt",
+							"type": "3",
+							"state": "1",
+							"extId": "8004497",
+							"meta": false,
+							"dist": 0,
+							"lid": "A=1@O=Ober Ramstadt@X=8743367@Y=49832026@U=80@L=8004497@",
+							"entry": false,
+							"timestamp": "2020-11-28T14:42:41Z",
+							"isSelectable": true,
+							"ico": {
+								"shp": "1",
+								"res": "prod_reg",
+								"sty": "1",
+								"bg": {
+									"r": 89,
+									"b": 87,
+									"g": 87,
+									"a": 255
+								},
+								"fg": {
+									"r": 255,
+									"b": 255,
+									"g": 255,
+									"a": 255
+								}
+							}
+						},
+						"aTimeS": "2020-11-28T18:57:00Z"
+					},
+					{
+						"aOutS": 1,
+						"isAdd": false,
+						"dCncl": false,
+						"aPlatfCh": false,
+						"dTimeS": "2020-11-28T19:06:00Z",
+						"dInR": true,
+						"dProd": {
+							"number": "25171",
+							"nameShort": "VIA RB82",
+							"productContext": {
+								"catOut": "VIA",
+								"catOutS": "DPN",
+								"catCode": "3",
+								"catOutL": "VIAS Rail GmbH",
+								"catIn": "DPN",
+								"num": "25171",
+								"name": "VIA25171",
+								"addName": "VIA RB82"
+							},
+							"ico": {
+								"shp": "1",
+								"res": "prod_reg",
+								"sty": "1",
+								"bg": {
+									"r": 89,
+									"b": 87,
+									"g": 87,
+									"a": 255
+								},
+								"fg": {
+									"r": 255,
+									"b": 255,
+									"g": 255,
+									"a": 255
+								}
+							},
+							"productMask": {
+								"integerValue": 8
+							},
+							"addName": "VIA RB82",
+							"name": "VIA RB82"
+						},
+						"idx": 6,
+						"dCaS": 0,
+						"aOutR": true,
+						"aCncl": false,
+						"dPlatformS": {
+							"type": "2",
+							"text": "1"
+						},
+						"isImp": false,
+						"dPlatfCh": false,
+						"aProd": {
+							"number": "25171",
+							"nameShort": "VIA RB82",
+							"productContext": {
+								"catOut": "VIA",
+								"catOutS": "DPN",
+								"catCode": "3",
+								"catOutL": "VIAS Rail GmbH",
+								"catIn": "DPN",
+								"num": "25171",
+								"name": "VIA25171",
+								"addName": "VIA RB82"
+							},
+							"ico": {
+								"shp": "1",
+								"res": "prod_reg",
+								"sty": "1",
+								"bg": {
+									"r": 89,
+									"b": 87,
+									"g": 87,
+									"a": 255
+								},
+								"fg": {
+									"r": 255,
+									"b": 255,
+									"g": 255,
+									"a": 255
+								}
+							},
+							"productMask": {
+								"integerValue": 8
+							},
+							"addName": "VIA RB82",
+							"name": "VIA RB82"
+						},
+						"dInS": 1,
+						"aCaS": 0,
+						"aPlatformS": {
+							"type": "2",
+							"text": "1"
+						},
+						"loc": {
+							"mapSelectable": true,
+							"currentLocationType": 0,
+							"productsMask": {
+								"integerValue": 40
+							},
+							"crd": {
+								"x": 8835785,
+								"coordSystem": {
+									"dim": 0,
+									"identifier": "standard",
+									"type": "1",
+									"index": 0
+								},
+								"y": 49829823,
+								"layer": {
+									"identifier": "standard",
+									"annotationCount": 0,
+									"name": "standard",
+									"index": 0
+								},
+								"z": 0,
+								"type": "1"
+							},
+							"wt": 0,
+							"isMainMast": false,
+							"name": "Reinheim(Odenw)",
+							"type": "3",
+							"state": "1",
+							"extId": "8005020",
+							"meta": false,
+							"dist": 0,
+							"lid": "A=1@O=Reinheim(Odenw)@X=8835686@Y=49829805@U=80@L=8005020@",
+							"entry": false,
+							"timestamp": "2020-11-28T14:42:41Z",
+							"isSelectable": true,
+							"ico": {
+								"shp": "1",
+								"res": "prod_reg",
+								"sty": "1",
+								"bg": {
+									"r": 89,
+									"b": 87,
+									"g": 87,
+									"a": 255
+								},
+								"fg": {
+									"r": 255,
+									"b": 255,
+									"g": 255,
+									"a": 255
+								}
+							}
+						},
+						"aTimeS": "2020-11-28T19:05:00Z"
+					},
+					{
+						"aOutS": 1,
+						"isAdd": false,
+						"dCncl": false,
+						"aPlatfCh": false,
+						"dTimeS": "2020-11-28T19:10:00Z",
+						"dInR": true,
+						"dProd": {
+							"number": "25171",
+							"nameShort": "VIA RB82",
+							"productContext": {
+								"catOut": "VIA",
+								"catOutS": "DPN",
+								"catCode": "3",
+								"catOutL": "VIAS Rail GmbH",
+								"catIn": "DPN",
+								"num": "25171",
+								"name": "VIA25171",
+								"addName": "VIA RB82"
+							},
+							"ico": {
+								"shp": "1",
+								"res": "prod_reg",
+								"sty": "1",
+								"bg": {
+									"r": 89,
+									"b": 87,
+									"g": 87,
+									"a": 255
+								},
+								"fg": {
+									"r": 255,
+									"b": 255,
+									"g": 255,
+									"a": 255
+								}
+							},
+							"productMask": {
+								"integerValue": 8
+							},
+							"addName": "VIA RB82",
+							"name": "VIA RB82"
+						},
+						"idx": 7,
+						"dCaS": 0,
+						"aOutR": true,
+						"aCncl": false,
+						"dPlatformS": {
+							"type": "2",
+							"text": "1"
+						},
+						"isImp": false,
+						"dPlatfCh": false,
+						"aProd": {
+							"number": "25171",
+							"nameShort": "VIA RB82",
+							"productContext": {
+								"catOut": "VIA",
+								"catOutS": "DPN",
+								"catCode": "3",
+								"catOutL": "VIAS Rail GmbH",
+								"catIn": "DPN",
+								"num": "25171",
+								"name": "VIA25171",
+								"addName": "VIA RB82"
+							},
+							"ico": {
+								"shp": "1",
+								"res": "prod_reg",
+								"sty": "1",
+								"bg": {
+									"r": 89,
+									"b": 87,
+									"g": 87,
+									"a": 255
+								},
+								"fg": {
+									"r": 255,
+									"b": 255,
+									"g": 255,
+									"a": 255
+								}
+							},
+							"productMask": {
+								"integerValue": 8
+							},
+							"addName": "VIA RB82",
+							"name": "VIA RB82"
+						},
+						"dInS": 1,
+						"aCaS": 0,
+						"aPlatformS": {
+							"type": "2",
+							"text": "1"
+						},
+						"loc": {
+							"mapSelectable": true,
+							"currentLocationType": 0,
+							"productsMask": {
+								"integerValue": 40
+							},
+							"crd": {
+								"x": 8903186,
+								"coordSystem": {
+									"dim": 0,
+									"identifier": "standard",
+									"type": "1",
+									"index": 0
+								},
+								"y": 49839550,
+								"layer": {
+									"identifier": "standard",
+									"annotationCount": 0,
+									"name": "standard",
+									"index": 0
+								},
+								"z": 0,
+								"type": "1"
+							},
+							"wt": 0,
+							"isMainMast": false,
+							"name": "Otzberg Lengfeld",
+							"type": "3",
+							"state": "1",
+							"extId": "8003641",
+							"meta": false,
+							"dist": 0,
+							"lid": "A=1@O=Otzberg Lengfeld@X=8902737@Y=49839451@U=80@L=8003641@",
+							"entry": false,
+							"timestamp": "2020-11-28T14:42:41Z",
+							"isSelectable": true,
+							"ico": {
+								"shp": "1",
+								"res": "prod_reg",
+								"sty": "1",
+								"bg": {
+									"r": 89,
+									"b": 87,
+									"g": 87,
+									"a": 255
+								},
+								"fg": {
+									"r": 255,
+									"b": 255,
+									"g": 255,
+									"a": 255
+								}
+							}
+						},
+						"aTimeS": "2020-11-28T19:09:00Z"
+					},
+					{
+						"aOutS": 1,
+						"isAdd": false,
+						"dCncl": false,
+						"aPlatfCh": false,
+						"dTimeS": "2020-11-28T19:20:00Z",
+						"dInR": true,
+						"dProd": {
+							"number": "25171",
+							"nameShort": "VIA RB82",
+							"productContext": {
+								"catOut": "VIA",
+								"catOutS": "DPN",
+								"catCode": "3",
+								"catOutL": "VIAS Rail GmbH",
+								"catIn": "DPN",
+								"num": "25171",
+								"name": "VIA25171",
+								"addName": "VIA RB82"
+							},
+							"ico": {
+								"shp": "1",
+								"res": "prod_reg",
+								"sty": "1",
+								"bg": {
+									"r": 89,
+									"b": 87,
+									"g": 87,
+									"a": 255
+								},
+								"fg": {
+									"r": 255,
+									"b": 255,
+									"g": 255,
+									"a": 255
+								}
+							},
+							"productMask": {
+								"integerValue": 8
+							},
+							"addName": "VIA RB82",
+							"name": "VIA RB82"
+						},
+						"idx": 8,
+						"dCaS": 0,
+						"aOutR": true,
+						"aCncl": false,
+						"dPlatformS": {
+							"type": "2",
+							"text": "3a/3b"
+						},
+						"isImp": false,
+						"dPlatfCh": false,
+						"aProd": {
+							"number": "25171",
+							"nameShort": "VIA RB82",
+							"productContext": {
+								"catOut": "VIA",
+								"catOutS": "DPN",
+								"catCode": "3",
+								"catOutL": "VIAS Rail GmbH",
+								"catIn": "DPN",
+								"num": "25171",
+								"name": "VIA25171",
+								"addName": "VIA RB82"
+							},
+							"ico": {
+								"shp": "1",
+								"res": "prod_reg",
+								"sty": "1",
+								"bg": {
+									"r": 89,
+									"b": 87,
+									"g": 87,
+									"a": 255
+								},
+								"fg": {
+									"r": 255,
+									"b": 255,
+									"g": 255,
+									"a": 255
+								}
+							},
+							"productMask": {
+								"integerValue": 8
+							},
+							"addName": "VIA RB82",
+							"name": "VIA RB82"
+						},
+						"dInS": 1,
+						"aCaS": 0,
+						"aPlatformS": {
+							"type": "2",
+							"text": "3a/3b"
+						},
+						"loc": {
+							"mapSelectable": true,
+							"currentLocationType": 0,
+							"productsMask": {
+								"integerValue": 40
+							},
+							"crd": {
+								"x": 8940869,
+								"coordSystem": {
+									"dim": 0,
+									"identifier": "standard",
+									"type": "1",
+									"index": 0
+								},
+								"y": 49833293,
+								"layer": {
+									"identifier": "standard",
+									"annotationCount": 0,
+									"name": "standard",
+									"index": 0
+								},
+								"z": 0,
+								"type": "1"
+							},
+							"wt": 0,
+							"isMainMast": false,
+							"name": "Groß-Umstadt Wiebelsbach",
+							"type": "3",
+							"state": "1",
+							"extId": "8000384",
+							"meta": false,
+							"dist": 0,
+							"lid": "A=1@O=Groß-Umstadt Wiebelsbach@X=8940851@Y=49833428@U=80@L=8000384@",
+							"entry": false,
+							"timestamp": "2020-11-28T14:42:41Z",
+							"isSelectable": true,
+							"ico": {
+								"shp": "1",
+								"res": "prod_reg",
+								"sty": "1",
+								"bg": {
+									"r": 89,
+									"b": 87,
+									"g": 87,
+									"a": 255
+								},
+								"fg": {
+									"r": 255,
+									"b": 255,
+									"g": 255,
+									"a": 255
+								}
+							}
+						},
+						"aTimeS": "2020-11-28T19:14:00Z"
+					},
+					{
+						"aOutS": 1,
+						"isAdd": false,
+						"dCncl": false,
+						"aPlatfCh": false,
+						"dTimeS": "2020-11-28T19:25:00Z",
+						"dInR": true,
+						"dProd": {
+							"number": "25171",
+							"nameShort": "VIA RB82",
+							"productContext": {
+								"catOut": "VIA",
+								"catOutS": "DPN",
+								"catCode": "3",
+								"catOutL": "VIAS Rail GmbH",
+								"catIn": "DPN",
+								"num": "25171",
+								"name": "VIA25171",
+								"addName": "VIA RB82"
+							},
+							"ico": {
+								"shp": "1",
+								"res": "prod_reg",
+								"sty": "1",
+								"bg": {
+									"r": 89,
+									"b": 87,
+									"g": 87,
+									"a": 255
+								},
+								"fg": {
+									"r": 255,
+									"b": 255,
+									"g": 255,
+									"a": 255
+								}
+							},
+							"productMask": {
+								"integerValue": 8
+							},
+							"addName": "VIA RB82",
+							"name": "VIA RB82"
+						},
+						"idx": 9,
+						"dCaS": 0,
+						"aOutR": true,
+						"aCncl": false,
+						"dPlatformS": {
+							"type": "2",
+							"text": "1"
+						},
+						"isImp": false,
+						"dPlatfCh": false,
+						"aProd": {
+							"number": "25171",
+							"nameShort": "VIA RB82",
+							"productContext": {
+								"catOut": "VIA",
+								"catOutS": "DPN",
+								"catCode": "3",
+								"catOutL": "VIAS Rail GmbH",
+								"catIn": "DPN",
+								"num": "25171",
+								"name": "VIA25171",
+								"addName": "VIA RB82"
+							},
+							"ico": {
+								"shp": "1",
+								"res": "prod_reg",
+								"sty": "1",
+								"bg": {
+									"r": 89,
+									"b": 87,
+									"g": 87,
+									"a": 255
+								},
+								"fg": {
+									"r": 255,
+									"b": 255,
+									"g": 255,
+									"a": 255
+								}
+							},
+							"productMask": {
+								"integerValue": 8
+							},
+							"addName": "VIA RB82",
+							"name": "VIA RB82"
+						},
+						"dInS": 1,
+						"aCaS": 0,
+						"aPlatformS": {
+							"type": "2",
+							"text": "1"
+						},
+						"loc": {
+							"mapSelectable": true,
+							"currentLocationType": 0,
+							"productsMask": {
+								"integerValue": 8
+							},
+							"crd": {
+								"x": 8983253,
+								"coordSystem": {
+									"dim": 0,
+									"identifier": "standard",
+									"type": "1",
+									"index": 0
+								},
+								"y": 49807566,
+								"layer": {
+									"identifier": "standard",
+									"annotationCount": 0,
+									"name": "standard",
+									"index": 0
+								},
+								"z": 0,
+								"type": "1"
+							},
+							"wt": 0,
+							"isMainMast": false,
+							"name": "Höchst Hetschbach",
+							"type": "3",
+							"state": "1",
+							"extId": "8002813",
+							"meta": false,
+							"dist": 0,
+							"lid": "A=1@O=Höchst Hetschbach@X=8983199@Y=49807593@U=80@L=8002813@",
+							"entry": false,
+							"timestamp": "2020-11-28T14:42:41Z",
+							"isSelectable": true,
+							"ico": {
+								"shp": "1",
+								"res": "prod_reg",
+								"sty": "1",
+								"bg": {
+									"r": 89,
+									"b": 87,
+									"g": 87,
+									"a": 255
+								},
+								"fg": {
+									"r": 255,
+									"b": 255,
+									"g": 255,
+									"a": 255
+								}
+							}
+						},
+						"aTimeS": "2020-11-28T19:25:00Z"
+					},
+					{
+						"aOutS": 1,
+						"isAdd": false,
+						"dCncl": false,
+						"aPlatfCh": false,
+						"dTimeS": "2020-11-28T19:28:00Z",
+						"dInR": true,
+						"dProd": {
+							"number": "25171",
+							"nameShort": "VIA RB82",
+							"productContext": {
+								"catOut": "VIA",
+								"catOutS": "DPN",
+								"catCode": "3",
+								"catOutL": "VIAS Rail GmbH",
+								"catIn": "DPN",
+								"num": "25171",
+								"name": "VIA25171",
+								"addName": "VIA RB82"
+							},
+							"ico": {
+								"shp": "1",
+								"res": "prod_reg",
+								"sty": "1",
+								"bg": {
+									"r": 89,
+									"b": 87,
+									"g": 87,
+									"a": 255
+								},
+								"fg": {
+									"r": 255,
+									"b": 255,
+									"g": 255,
+									"a": 255
+								}
+							},
+							"productMask": {
+								"integerValue": 8
+							},
+							"addName": "VIA RB82",
+							"name": "VIA RB82"
+						},
+						"idx": 10,
+						"dCaS": 0,
+						"aOutR": true,
+						"aCncl": false,
+						"dPlatformS": {
+							"type": "2",
+							"text": "2"
+						},
+						"isImp": false,
+						"dPlatfCh": false,
+						"aProd": {
+							"number": "25171",
+							"nameShort": "VIA RB82",
+							"productContext": {
+								"catOut": "VIA",
+								"catOutS": "DPN",
+								"catCode": "3",
+								"catOutL": "VIAS Rail GmbH",
+								"catIn": "DPN",
+								"num": "25171",
+								"name": "VIA25171",
+								"addName": "VIA RB82"
+							},
+							"ico": {
+								"shp": "1",
+								"res": "prod_reg",
+								"sty": "1",
+								"bg": {
+									"r": 89,
+									"b": 87,
+									"g": 87,
+									"a": 255
+								},
+								"fg": {
+									"r": 255,
+									"b": 255,
+									"g": 255,
+									"a": 255
+								}
+							},
+							"productMask": {
+								"integerValue": 8
+							},
+							"addName": "VIA RB82",
+							"name": "VIA RB82"
+						},
+						"dInS": 1,
+						"aCaS": 0,
+						"aPlatformS": {
+							"type": "2",
+							"text": "2"
+						},
+						"loc": {
+							"mapSelectable": true,
+							"currentLocationType": 0,
+							"productsMask": {
+								"integerValue": 552
+							},
+							"crd": {
+								"x": 8988557,
+								"coordSystem": {
+									"dim": 0,
+									"identifier": "standard",
+									"type": "1",
+									"index": 0
+								},
+								"y": 49794541,
+								"layer": {
+									"identifier": "standard",
+									"annotationCount": 0,
+									"name": "standard",
+									"index": 0
+								},
+								"z": 0,
+								"type": "1"
+							},
+							"wt": 0,
+							"isMainMast": false,
+							"name": "Höchst(Odenw)",
+							"type": "3",
+							"state": "1",
+							"extId": "8000172",
+							"meta": false,
+							"dist": 0,
+							"lid": "A=1@O=Höchst(Odenw)@X=8988548@Y=49794496@U=80@L=8000172@",
+							"entry": false,
+							"timestamp": "2020-11-28T14:42:41Z",
+							"isSelectable": true,
+							"ico": {
+								"shp": "1",
+								"res": "prod_reg",
+								"sty": "1",
+								"bg": {
+									"r": 89,
+									"b": 87,
+									"g": 87,
+									"a": 255
+								},
+								"fg": {
+									"r": 255,
+									"b": 255,
+									"g": 255,
+									"a": 255
+								}
+							}
+						},
+						"aTimeS": "2020-11-28T19:27:00Z"
+					},
+					{
+						"aOutS": 1,
+						"isAdd": false,
+						"dCncl": false,
+						"aPlatfCh": false,
+						"dTimeS": "2020-11-28T19:31:00Z",
+						"dInR": true,
+						"dProd": {
+							"number": "25171",
+							"nameShort": "VIA RB82",
+							"productContext": {
+								"catOut": "VIA",
+								"catOutS": "DPN",
+								"catCode": "3",
+								"catOutL": "VIAS Rail GmbH",
+								"catIn": "DPN",
+								"num": "25171",
+								"name": "VIA25171",
+								"addName": "VIA RB82"
+							},
+							"ico": {
+								"shp": "1",
+								"res": "prod_reg",
+								"sty": "1",
+								"bg": {
+									"r": 89,
+									"b": 87,
+									"g": 87,
+									"a": 255
+								},
+								"fg": {
+									"r": 255,
+									"b": 255,
+									"g": 255,
+									"a": 255
+								}
+							},
+							"productMask": {
+								"integerValue": 8
+							},
+							"addName": "VIA RB82",
+							"name": "VIA RB82"
+						},
+						"idx": 11,
+						"dCaS": 0,
+						"aOutR": true,
+						"aCncl": false,
+						"dPlatformS": {
+							"type": "2",
+							"text": "2"
+						},
+						"isImp": false,
+						"dPlatfCh": false,
+						"aProd": {
+							"number": "25171",
+							"nameShort": "VIA RB82",
+							"productContext": {
+								"catOut": "VIA",
+								"catOutS": "DPN",
+								"catCode": "3",
+								"catOutL": "VIAS Rail GmbH",
+								"catIn": "DPN",
+								"num": "25171",
+								"name": "VIA25171",
+								"addName": "VIA RB82"
+							},
+							"ico": {
+								"shp": "1",
+								"res": "prod_reg",
+								"sty": "1",
+								"bg": {
+									"r": 89,
+									"b": 87,
+									"g": 87,
+									"a": 255
+								},
+								"fg": {
+									"r": 255,
+									"b": 255,
+									"g": 255,
+									"a": 255
+								}
+							},
+							"productMask": {
+								"integerValue": 8
+							},
+							"addName": "VIA RB82",
+							"name": "VIA RB82"
+						},
+						"dInS": 1,
+						"aCaS": 0,
+						"aPlatformS": {
+							"type": "2",
+							"text": "2"
+						},
+						"loc": {
+							"mapSelectable": true,
+							"currentLocationType": 0,
+							"productsMask": {
+								"integerValue": 8
+							},
+							"crd": {
+								"x": 8985635,
+								"coordSystem": {
+									"dim": 0,
+									"identifier": "standard",
+									"type": "1",
+									"index": 0
+								},
+								"y": 49771960,
+								"layer": {
+									"identifier": "standard",
+									"annotationCount": 0,
+									"name": "standard",
+									"index": 0
+								},
+								"z": 0,
+								"type": "1"
+							},
+							"wt": 0,
+							"isMainMast": false,
+							"name": "Höchst Mümling-Grumbach",
+							"type": "3",
+							"state": "1",
+							"extId": "8004125",
+							"meta": false,
+							"dist": 0,
+							"lid": "A=1@O=Höchst Mümling-Grumbach@X=8985635@Y=49771672@U=80@L=8004125@",
+							"entry": false,
+							"timestamp": "2020-11-28T14:42:41Z",
+							"isSelectable": true,
+							"ico": {
+								"shp": "1",
+								"res": "prod_reg",
+								"sty": "1",
+								"bg": {
+									"r": 89,
+									"b": 87,
+									"g": 87,
+									"a": 255
+								},
+								"fg": {
+									"r": 255,
+									"b": 255,
+									"g": 255,
+									"a": 255
+								}
+							}
+						},
+						"aTimeS": "2020-11-28T19:30:00Z"
+					},
+					{
+						"aOutS": 1,
+						"isAdd": false,
+						"dCncl": false,
+						"aPlatfCh": false,
+						"dTimeS": "2020-11-28T19:35:00Z",
+						"dInR": true,
+						"dProd": {
+							"number": "25171",
+							"nameShort": "VIA RB82",
+							"productContext": {
+								"catOut": "VIA",
+								"catOutS": "DPN",
+								"catCode": "3",
+								"catOutL": "VIAS Rail GmbH",
+								"catIn": "DPN",
+								"num": "25171",
+								"name": "VIA25171",
+								"addName": "VIA RB82"
+							},
+							"ico": {
+								"shp": "1",
+								"res": "prod_reg",
+								"sty": "1",
+								"bg": {
+									"r": 89,
+									"b": 87,
+									"g": 87,
+									"a": 255
+								},
+								"fg": {
+									"r": 255,
+									"b": 255,
+									"g": 255,
+									"a": 255
+								}
+							},
+							"productMask": {
+								"integerValue": 8
+							},
+							"addName": "VIA RB82",
+							"name": "VIA RB82"
+						},
+						"idx": 12,
+						"dCaS": 0,
+						"aOutR": true,
+						"aCncl": false,
+						"dPlatformS": {
+							"type": "2",
+							"text": "1"
+						},
+						"isImp": false,
+						"dPlatfCh": false,
+						"aProd": {
+							"number": "25171",
+							"nameShort": "VIA RB82",
+							"productContext": {
+								"catOut": "VIA",
+								"catOutS": "DPN",
+								"catCode": "3",
+								"catOutL": "VIAS Rail GmbH",
+								"catIn": "DPN",
+								"num": "25171",
+								"name": "VIA25171",
+								"addName": "VIA RB82"
+							},
+							"ico": {
+								"shp": "1",
+								"res": "prod_reg",
+								"sty": "1",
+								"bg": {
+									"r": 89,
+									"b": 87,
+									"g": 87,
+									"a": 255
+								},
+								"fg": {
+									"r": 255,
+									"b": 255,
+									"g": 255,
+									"a": 255
+								}
+							},
+							"productMask": {
+								"integerValue": 8
+							},
+							"addName": "VIA RB82",
+							"name": "VIA RB82"
+						},
+						"dInS": 1,
+						"aCaS": 0,
+						"aPlatformS": {
+							"type": "2",
+							"text": "1"
+						},
+						"loc": {
+							"mapSelectable": true,
+							"currentLocationType": 0,
+							"productsMask": {
+								"integerValue": 552
+							},
+							"crd": {
+								"x": 9001780,
+								"coordSystem": {
+									"dim": 0,
+									"identifier": "standard",
+									"type": "1",
+									"index": 0
+								},
+								"y": 49738996,
+								"layer": {
+									"identifier": "standard",
+									"annotationCount": 0,
+									"name": "standard",
+									"index": 0
+								},
+								"z": 0,
+								"type": "1"
+							},
+							"wt": 0,
+							"isMainMast": false,
+							"name": "Bad König",
+							"type": "3",
+							"state": "1",
+							"extId": "8000715",
+							"meta": false,
+							"dist": 0,
+							"lid": "A=1@O=Bad König@X=9001537@Y=49738574@U=80@L=8000715@",
+							"entry": false,
+							"timestamp": "2020-11-28T14:42:41Z",
+							"isSelectable": true,
+							"ico": {
+								"shp": "1",
+								"res": "prod_reg",
+								"sty": "1",
+								"bg": {
+									"r": 89,
+									"b": 87,
+									"g": 87,
+									"a": 255
+								},
+								"fg": {
+									"r": 255,
+									"b": 255,
+									"g": 255,
+									"a": 255
+								}
+							}
+						},
+						"aTimeS": "2020-11-28T19:34:00Z"
+					},
+					{
+						"aOutS": 1,
+						"isAdd": false,
+						"dCncl": false,
+						"aPlatfCh": false,
+						"dTimeS": "2020-11-28T19:38:00Z",
+						"dInR": true,
+						"dProd": {
+							"number": "25171",
+							"nameShort": "VIA RB82",
+							"productContext": {
+								"catOut": "VIA",
+								"catOutS": "DPN",
+								"catCode": "3",
+								"catOutL": "VIAS Rail GmbH",
+								"catIn": "DPN",
+								"num": "25171",
+								"name": "VIA25171",
+								"addName": "VIA RB82"
+							},
+							"ico": {
+								"shp": "1",
+								"res": "prod_reg",
+								"sty": "1",
+								"bg": {
+									"r": 89,
+									"b": 87,
+									"g": 87,
+									"a": 255
+								},
+								"fg": {
+									"r": 255,
+									"b": 255,
+									"g": 255,
+									"a": 255
+								}
+							},
+							"productMask": {
+								"integerValue": 8
+							},
+							"addName": "VIA RB82",
+							"name": "VIA RB82"
+						},
+						"idx": 13,
+						"dCaS": 0,
+						"aOutR": true,
+						"aCncl": false,
+						"dPlatformS": {
+							"type": "2",
+							"text": "1"
+						},
+						"isImp": false,
+						"dPlatfCh": false,
+						"aProd": {
+							"number": "25171",
+							"nameShort": "VIA RB82",
+							"productContext": {
+								"catOut": "VIA",
+								"catOutS": "DPN",
+								"catCode": "3",
+								"catOutL": "VIAS Rail GmbH",
+								"catIn": "DPN",
+								"num": "25171",
+								"name": "VIA25171",
+								"addName": "VIA RB82"
+							},
+							"ico": {
+								"shp": "1",
+								"res": "prod_reg",
+								"sty": "1",
+								"bg": {
+									"r": 89,
+									"b": 87,
+									"g": 87,
+									"a": 255
+								},
+								"fg": {
+									"r": 255,
+									"b": 255,
+									"g": 255,
+									"a": 255
+								}
+							},
+							"productMask": {
+								"integerValue": 8
+							},
+							"addName": "VIA RB82",
+							"name": "VIA RB82"
+						},
+						"dInS": 1,
+						"aCaS": 0,
+						"aPlatformS": {
+							"type": "2",
+							"text": "1"
+						},
+						"loc": {
+							"mapSelectable": true,
+							"currentLocationType": 0,
+							"productsMask": {
+								"integerValue": 552
+							},
+							"crd": {
+								"x": 8994265,
+								"coordSystem": {
+									"dim": 0,
+									"identifier": "standard",
+									"type": "1",
+									"index": 0
+								},
+								"y": 49720424,
+								"layer": {
+									"identifier": "standard",
+									"annotationCount": 0,
+									"name": "standard",
+									"index": 0
+								},
+								"z": 0,
+								"type": "1"
+							},
+							"wt": 0,
+							"isMainMast": false,
+							"name": "Bad König Zell",
+							"type": "3",
+							"state": "1",
+							"extId": "8006643",
+							"meta": false,
+							"dist": 0,
+							"lid": "A=1@O=Bad König Zell@X=8994112@Y=49720326@U=80@L=8006643@",
+							"entry": false,
+							"timestamp": "2020-11-28T14:42:41Z",
+							"isSelectable": true,
+							"ico": {
+								"shp": "1",
+								"res": "prod_reg",
+								"sty": "1",
+								"bg": {
+									"r": 89,
+									"b": 87,
+									"g": 87,
+									"a": 255
+								},
+								"fg": {
+									"r": 255,
+									"b": 255,
+									"g": 255,
+									"a": 255
+								}
+							}
+						},
+						"aTimeS": "2020-11-28T19:37:00Z"
+					},
+					{
+						"aOutS": 1,
+						"isAdd": false,
+						"dCncl": false,
+						"aPlatfCh": false,
+						"dTimeS": "2020-11-28T19:43:00Z",
+						"dInR": true,
+						"dProd": {
+							"number": "25171",
+							"nameShort": "VIA RB82",
+							"productContext": {
+								"catOut": "VIA",
+								"catOutS": "DPN",
+								"catCode": "3",
+								"catOutL": "VIAS Rail GmbH",
+								"catIn": "DPN",
+								"num": "25171",
+								"name": "VIA25171",
+								"addName": "VIA RB82"
+							},
+							"ico": {
+								"shp": "1",
+								"res": "prod_reg",
+								"sty": "1",
+								"bg": {
+									"r": 89,
+									"b": 87,
+									"g": 87,
+									"a": 255
+								},
+								"fg": {
+									"r": 255,
+									"b": 255,
+									"g": 255,
+									"a": 255
+								}
+							},
+							"productMask": {
+								"integerValue": 8
+							},
+							"addName": "VIA RB82",
+							"name": "VIA RB82"
+						},
+						"idx": 14,
+						"dCaS": 0,
+						"aOutR": true,
+						"aCncl": false,
+						"dPlatformS": {
+							"type": "2",
+							"text": "1"
+						},
+						"isImp": false,
+						"dPlatfCh": false,
+						"aProd": {
+							"number": "25171",
+							"nameShort": "VIA RB82",
+							"productContext": {
+								"catOut": "VIA",
+								"catOutS": "DPN",
+								"catCode": "3",
+								"catOutL": "VIAS Rail GmbH",
+								"catIn": "DPN",
+								"num": "25171",
+								"name": "VIA25171",
+								"addName": "VIA RB82"
+							},
+							"ico": {
+								"shp": "1",
+								"res": "prod_reg",
+								"sty": "1",
+								"bg": {
+									"r": 89,
+									"b": 87,
+									"g": 87,
+									"a": 255
+								},
+								"fg": {
+									"r": 255,
+									"b": 255,
+									"g": 255,
+									"a": 255
+								}
+							},
+							"productMask": {
+								"integerValue": 8
+							},
+							"addName": "VIA RB82",
+							"name": "VIA RB82"
+						},
+						"dInS": 1,
+						"aCaS": 0,
+						"aPlatformS": {
+							"type": "2",
+							"text": "1"
+						},
+						"loc": {
+							"mapSelectable": true,
+							"currentLocationType": 0,
+							"productsMask": {
+								"integerValue": 552
+							},
+							"crd": {
+								"x": 9001205,
+								"coordSystem": {
+									"dim": 0,
+									"identifier": "standard",
+									"type": "1",
+									"index": 0
+								},
+								"y": 49684576,
+								"layer": {
+									"identifier": "standard",
+									"annotationCount": 0,
+									"name": "standard",
+									"index": 0
+								},
+								"z": 0,
+								"type": "1"
+							},
+							"wt": 0,
+							"isMainMast": false,
+							"name": "Michelstadt",
+							"type": "3",
+							"state": "1",
+							"extId": "8004017",
+							"meta": false,
+							"dist": 0,
+							"lid": "A=1@O=Michelstadt@X=9001456@Y=49684854@U=80@L=8004017@",
+							"entry": false,
+							"timestamp": "2020-11-28T14:42:41Z",
+							"isSelectable": true,
+							"ico": {
+								"shp": "1",
+								"res": "prod_reg",
+								"sty": "1",
+								"bg": {
+									"r": 89,
+									"b": 87,
+									"g": 87,
+									"a": 255
+								},
+								"fg": {
+									"r": 255,
+									"b": 255,
+									"g": 255,
+									"a": 255
+								}
+							}
+						},
+						"aTimeS": "2020-11-28T19:42:00Z"
+					},
+					{
+						"aOutS": 1,
+						"isAdd": false,
+						"dCncl": false,
+						"aPlatfCh": false,
+						"dTimeS": "2020-11-28T19:46:00Z",
+						"dInR": true,
+						"dProd": {
+							"number": "25171",
+							"nameShort": "VIA RB82",
+							"productContext": {
+								"catOut": "VIA",
+								"catOutS": "DPN",
+								"catCode": "3",
+								"catOutL": "VIAS Rail GmbH",
+								"catIn": "DPN",
+								"num": "25171",
+								"name": "VIA25171",
+								"addName": "VIA RB82"
+							},
+							"ico": {
+								"shp": "1",
+								"res": "prod_reg",
+								"sty": "1",
+								"bg": {
+									"r": 89,
+									"b": 87,
+									"g": 87,
+									"a": 255
+								},
+								"fg": {
+									"r": 255,
+									"b": 255,
+									"g": 255,
+									"a": 255
+								}
+							},
+							"productMask": {
+								"integerValue": 8
+							},
+							"addName": "VIA RB82",
+							"name": "VIA RB82"
+						},
+						"idx": 15,
+						"dCaS": 0,
+						"aOutR": true,
+						"aCncl": false,
+						"dPlatformS": {
+							"type": "2",
+							"text": "1"
+						},
+						"isImp": false,
+						"dPlatfCh": false,
+						"aProd": {
+							"number": "25171",
+							"nameShort": "VIA RB82",
+							"productContext": {
+								"catOut": "VIA",
+								"catOutS": "DPN",
+								"catCode": "3",
+								"catOutL": "VIAS Rail GmbH",
+								"catIn": "DPN",
+								"num": "25171",
+								"name": "VIA25171",
+								"addName": "VIA RB82"
+							},
+							"ico": {
+								"shp": "1",
+								"res": "prod_reg",
+								"sty": "1",
+								"bg": {
+									"r": 89,
+									"b": 87,
+									"g": 87,
+									"a": 255
+								},
+								"fg": {
+									"r": 255,
+									"b": 255,
+									"g": 255,
+									"a": 255
+								}
+							},
+							"productMask": {
+								"integerValue": 8
+							},
+							"addName": "VIA RB82",
+							"name": "VIA RB82"
+						},
+						"dInS": 1,
+						"aCaS": 0,
+						"aPlatformS": {
+							"type": "2",
+							"text": "1"
+						},
+						"loc": {
+							"mapSelectable": true,
+							"currentLocationType": 0,
+							"productsMask": {
+								"integerValue": 8
+							},
+							"crd": {
+								"x": 8989986,
+								"coordSystem": {
+									"dim": 0,
+									"identifier": "standard",
+									"type": "1",
+									"index": 0
+								},
+								"y": 49669555,
+								"layer": {
+									"identifier": "standard",
+									"annotationCount": 0,
+									"name": "standard",
+									"index": 0
+								},
+								"z": 0,
+								"type": "1"
+							},
+							"wt": 0,
+							"isMainMast": false,
+							"name": "Erbach(Odenw) Nord",
+							"type": "3",
+							"state": "1",
+							"extId": "8001811",
+							"meta": false,
+							"dist": 0,
+							"lid": "A=1@O=Erbach(Odenw) Nord@X=8989959@Y=49669582@U=80@L=8001811@",
+							"entry": false,
+							"timestamp": "2020-11-28T14:42:41Z",
+							"isSelectable": true,
+							"ico": {
+								"shp": "1",
+								"res": "prod_reg",
+								"sty": "1",
+								"bg": {
+									"r": 89,
+									"b": 87,
+									"g": 87,
+									"a": 255
+								},
+								"fg": {
+									"r": 255,
+									"b": 255,
+									"g": 255,
+									"a": 255
+								}
+							}
+						},
+						"aTimeS": "2020-11-28T19:45:00Z"
+					},
+					{
+						"aOutS": 1,
+						"isAdd": false,
+						"dCncl": false,
+						"aPlatfCh": false,
+						"dInR": true,
+						"idx": 16,
+						"dCaS": 0,
+						"aOutR": true,
+						"aCncl": false,
+						"isImp": false,
+						"dPlatfCh": false,
+						"aProd": {
+							"number": "25171",
+							"nameShort": "VIA RB82",
+							"productContext": {
+								"catOut": "VIA",
+								"catOutS": "DPN",
+								"catCode": "3",
+								"catOutL": "VIAS Rail GmbH",
+								"catIn": "DPN",
+								"num": "25171",
+								"name": "VIA25171",
+								"addName": "VIA RB82"
+							},
+							"ico": {
+								"shp": "1",
+								"res": "prod_reg",
+								"sty": "1",
+								"bg": {
+									"r": 89,
+									"b": 87,
+									"g": 87,
+									"a": 255
+								},
+								"fg": {
+									"r": 255,
+									"b": 255,
+									"g": 255,
+									"a": 255
+								}
+							},
+							"productMask": {
+								"integerValue": 8
+							},
+							"addName": "VIA RB82",
+							"name": "VIA RB82"
+						},
+						"dInS": 1,
+						"aCaS": 0,
+						"aPlatformS": {
+							"type": "2",
+							"text": "1"
+						},
+						"loc": {
+							"mapSelectable": true,
+							"currentLocationType": 0,
+							"productsMask": {
+								"integerValue": 552
+							},
+							"crd": {
+								"x": 8989779,
+								"coordSystem": {
+									"dim": 0,
+									"identifier": "standard",
+									"type": "1",
+									"index": 0
+								},
+								"y": 49656772,
+								"layer": {
+									"identifier": "standard",
+									"annotationCount": 0,
+									"name": "standard",
+									"index": 0
+								},
+								"z": 0,
+								"type": "1"
+							},
+							"wt": 0,
+							"isMainMast": false,
+							"name": "Erbach(Odenw)",
+							"type": "3",
+							"state": "1",
+							"extId": "8001817",
+							"meta": false,
+							"dist": 0,
+							"lid": "A=1@O=Erbach(Odenw)@X=8989824@Y=49656709@U=80@L=8001817@",
+							"entry": false,
+							"timestamp": "2020-11-28T14:42:41Z",
+							"isSelectable": true,
+							"ico": {
+								"shp": "1",
+								"res": "prod_reg",
+								"sty": "1",
+								"bg": {
+									"r": 89,
+									"b": 87,
+									"g": 87,
+									"a": 255
+								},
+								"fg": {
+									"r": 255,
+									"b": 255,
+									"g": 255,
+									"a": 255
+								}
+							}
+						},
+						"aTimeS": "2020-11-28T19:48:00Z"
+					}
+				],
+				"isRepLate": false,
+				"summaryLineDrawStyle": {
+					"startIcon": {
+						"shp": "1",
+						"res": "prod_reg",
+						"sty": "1",
+						"bg": {
+							"r": 89,
+							"b": 87,
+							"g": 87,
+							"a": 255
+						},
+						"fg": {
+							"r": 255,
+							"b": 255,
+							"g": 255,
+							"a": 255
+						}
+					},
+					"bg": {
+						"r": 89,
+						"b": 87,
+						"g": 87,
+						"a": 255
+					},
+					"type": "4"
+				},
+				"isDepGeo": false,
+				"isBase": false,
+				"approxDelay": false,
+				"jid": "1|255912|4|80|28112020",
+				"procRT": 0,
+				"isPosRep": false,
+				"chRatingRT": 0,
+				"status": "1",
+				"resultLineDrawStyle": {
+					"bg": {
+						"r": 89,
+						"b": 87,
+						"g": 87,
+						"a": 255
+					},
+					"type": "4"
+				},
+				"isRepPosNotOnStopL": false,
+				"isPartActv": false,
+				"isWait": false,
+				"isRchbl": true,
+				"isCncl": false,
+				"proc": 0,
+				"isOutputStopLocationName": false,
+				"polylineGroup": {
+					"layer": {
+						"identifier": "standard",
+						"annotationCount": 0,
+						"name": "standard",
+						"index": 0
+					},
+					"coordSystem": {
+						"dim": 0,
+						"identifier": "standard",
+						"type": "1",
+						"index": 0
+					},
+					"polylineList": [
+						{
+							"dim": 3,
+							"lineDrawStyle": {
+								"startIcon": {
+									"shp": "1",
+									"res": "prod_reg",
+									"sty": "1",
+									"bg": {
+										"r": 89,
+										"b": 87,
+										"g": 87,
+										"a": 255
+									},
+									"fg": {
+										"r": 255,
+										"b": 255,
+										"g": 255,
+										"a": 255
+									}
+								},
+								"bg": {
+									"r": 89,
+									"b": 87,
+									"g": 87,
+									"a": 255
+								},
+								"type": "4"
+							},
+							"crdEncS": "NNKKNNKNMNMNLNKNLNLNNNMNMKNKNLNNNNNNNLNKNNNNMNKNMKNNNNNNNNMNNNKMNMNNKMNKNLNNNLNNNNNNMNNMNNKNLLNMNMNMNNNLMNMNKNMNKMNNNKNNNLNNMNNKKNNNNNMNNLNMNNKNMNMNNNNNLNNKNNNNKNMNNKNMNMNNNNNNLNNNN",
+							"type": "1",
+							"crdEncF": "?????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????",
+							"crdEncZ": "?????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????",
+							"delta": true,
+							"crdEncYX": "wpooH}dys@XGUoF{B}SiA}OuCaw@@wGPgCjA{FrBoExCuCjDiA|FArJr@fD`Bn]bUfG~AjGj@lDy@dDmB|Q}M??bJqGxEsFjD}H|GcUjB}E|BeElCiDzCkCxFqC~]_J??|jAmYpy@cH~IuBbImFtEyF|BgEjB{EzAmF|EaV??fOgw@jBoO^{KOsGqB}\\JaYMsGWeCyBqJcIwSgBaKM}KpAk[??|Buk@fAmqAn@wKlAyFtDqHxCoCtKiHvEqFnByElAyFj@yKY{K}@ePmAmKwBsJg^ovAiA{Fk@mG@}KpAkKpCyIjKuV~BmJtGih@`AaPQiPaBuOgDkN_Ncc@??gWaz@cDmNeOg{AsBcw@[qGuAkK{F{Zq@iGSsGX}KnFkm@`@{Ke@gPcEej@??iIkfAkB_KeGwUw@gGSqGb@{KbAaGdCiJzHyXbDkIbC}DnCaDj_@y_@??tVeX~BmCbC}DlC_JbHgq@hA{FjB}Et~AukCxEqFbFiD??jc@mX??lIkEhG_AhYR??vzAtAhGr@`h@|L??lGv@jGAbJ}AzFmC~lBqvArFuDzFmC~IqBfJSjGj@`MhD??`sB|m@??|p@jMrD@nDu@rFuDhL{NhHuH~FyB~Ly@zFgCjAmA~BcErImYlBwDrCwCjDyAvAQjGb@je@fLtFdDfNhM??hz@bv@lIdEbWxG??xe@|L`JzAhGs@vT{L??"
+						}
+					]
+				},
+				"dirGeo": 0,
+				"isDep": true,
+				"dirTxt": "Erbach(Odenw)",
+				"ctxRecon": "T$A=1@O=Darmstadt Nord@L=8001375@a=128@$A=1@O=Erbach(Odenw)@L=8001817@a=128@$202011281744$202011281848$VIA25171$$1$$$",
+				"timestamp": "2020-11-28T14:42:41Z"
+			},
+			"type": "2",
+			"arr": {
+				"aOutS": 1,
+				"isAdd": false,
+				"dCncl": false,
+				"aPlatfCh": false,
+				"dInR": true,
+				"idx": 16,
+				"dCaS": 0,
+				"aOutR": true,
+				"aCncl": false,
+				"isImp": false,
+				"dPlatfCh": false,
+				"aProd": {
+					"number": "25171",
+					"nameShort": "VIA RB82",
+					"productContext": {
+						"catOut": "VIA",
+						"catOutS": "DPN",
+						"catCode": "3",
+						"catOutL": "VIAS Rail GmbH",
+						"catIn": "DPN",
+						"num": "25171",
+						"name": "VIA25171",
+						"addName": "VIA RB82"
+					},
+					"ico": {
+						"shp": "1",
+						"res": "prod_reg",
+						"sty": "1",
+						"bg": {
+							"r": 89,
+							"b": 87,
+							"g": 87,
+							"a": 255
+						},
+						"fg": {
+							"r": 255,
+							"b": 255,
+							"g": 255,
+							"a": 255
+						}
+					},
+					"productMask": {
+						"integerValue": 8
+					},
+					"addName": "VIA RB82",
+					"name": "VIA RB82"
+				},
+				"dInS": 1,
+				"aCaS": 0,
+				"aPlatformS": {
+					"type": "2",
+					"text": "1"
+				},
+				"loc": {
+					"mapSelectable": true,
+					"currentLocationType": 0,
+					"productsMask": {
+						"integerValue": 552
+					},
+					"crd": {
+						"x": 8989779,
+						"coordSystem": {
+							"dim": 0,
+							"identifier": "standard",
+							"type": "1",
+							"index": 0
+						},
+						"y": 49656772,
+						"layer": {
+							"identifier": "standard",
+							"annotationCount": 0,
+							"name": "standard",
+							"index": 0
+						},
+						"z": 0,
+						"type": "1"
+					},
+					"wt": 0,
+					"isMainMast": false,
+					"name": "Erbach(Odenw)",
+					"type": "3",
+					"state": "1",
+					"extId": "8001817",
+					"meta": false,
+					"dist": 0,
+					"lid": "A=1@O=Erbach(Odenw)@X=8989824@Y=49656709@U=80@L=8001817@",
+					"entry": false,
+					"timestamp": "2020-11-28T14:42:41Z",
+					"isSelectable": true,
+					"ico": {
+						"shp": "1",
+						"res": "prod_reg",
+						"sty": "1",
+						"bg": {
+							"r": 89,
+							"b": 87,
+							"g": 87,
+							"a": 255
+						},
+						"fg": {
+							"r": 255,
+							"b": 255,
+							"g": 255,
+							"a": 255
+						}
+					}
+				},
+				"aTimeS": "2020-11-28T19:48:00Z"
+			},
+			"reservationState": 0,
+			"duration": 3840,
+			"isBadSection": false
+		}
+	],
+	"date": "2020-11-28T01:00:00Z",
+	"messageList": [
+		{
+			"fIdx": -1,
+			"prio": 200,
+			"txtC": {
+				"r": 150,
+				"b": 150,
+				"g": 150,
+				"a": 255
+			},
+			"tIdx": -1,
+			"type": "2",
+			"minor": 0,
+			"tagList": [
+				"SUM_CON_FTR_H3"
+			],
+			"rem": {
+				"prio": 100,
+				"txtN": "Current information about disruptions/delays available.",
+				"code": "",
+				"ico": {
+					"shp": "1",
+					"res": "HimInfo",
+					"sty": "1"
+				},
+				"type": "6"
+			},
+			"dspl": "1",
+			"sort": 1099956224
+		},
+		{
+			"fIdx": 1,
+			"prio": 240,
+			"txtC": {
+				"r": 150,
+				"b": 150,
+				"g": 150,
+				"a": 255
+			},
+			"tIdx": 4,
+			"type": "2",
+			"minor": 0,
+			"tagList": [
+				"RES_CON_FTR_H3"
+			],
+			"rem": {
+				"prio": 100,
+				"txtN": "ACHTUNG: Abweichend kein Bordrestaurant/Bordbistro.",
+				"code": "",
+				"ico": {
+					"shp": "1",
+					"res": "HimInfo",
+					"sty": "1"
+				},
+				"type": "10",
+				"txtS": "IC 2294: Heidelberg Hbf->Darmstadt Hbf: Information.   "
+			},
+			"dspl": "1",
+			"sort": 1099956224
+		},
+		{
+			"fIdx": 1,
+			"prio": 240,
+			"txtC": {
+				"r": 150,
+				"b": 150,
+				"g": 150,
+				"a": 255
+			},
+			"tIdx": 4,
+			"type": "2",
+			"minor": 0,
+			"tagList": [
+				"RES_CON_FTR_H3"
+			],
+			"rem": {
+				"prio": 100,
+				"txtN": "Bitte denken Sie in unseren Zügen an die Tragepflicht einer Mund-Nase-Bedeckung.",
+				"code": "",
+				"ico": {
+					"shp": "1",
+					"res": "Info",
+					"sty": "1"
+				},
+				"type": "10",
+				"txtS": "IC 2294: Heidelberg Hbf->Darmstadt Hbf: Information.   "
+			},
+			"dspl": "1",
+			"sort": 1099956224
+		}
+	],
+	"timestamp": "2020-11-28T14:42:41Z",
+	"sotRating": 0,
+	"checksum": "e191677f_3",
+	"chg": 2,
+	"isAlt": false,
+	"hasAlt": false,
+	"isNotRdbl": false,
+	"ctxRecon": "¶HKI¶T$A=1@O=Heidelberg Hbf@L=8000156@a=128@$A=1@O=Darmstadt Hbf@L=8000068@a=128@$202011281646$202011281722$IC  2294$$1$$$§T$A=1@O=Darmstadt Hbf@L=8000068@a=128@$A=1@O=Darmstadt Nord@L=8001375@a=128@$202011281732$202011281735$HLB28725$$1$$$§T$A=1@O=Darmstadt Nord@L=8001375@a=128@$A=1@O=Erbach(Odenw)@L=8001817@a=128@$202011281744$202011281848$VIA25171$$1$$$",
+	"reservationState": 5,
+	"checksumDependingOnDay": "8c27c713_3"
+}

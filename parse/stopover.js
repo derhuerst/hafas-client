@@ -6,12 +6,38 @@ const parseStopover = (ctx, st, date) => { // st = raw stopover
 	const {profile, opt} = ctx
 
 	const arr = profile.parseWhen(ctx, date, st.aTimeS, st.aTimeR, st.aTZOffset, st.aCncl)
-	const arrPl = profile.parsePlatform(ctx, st.aPlatfS || (st.aPltfS && st.aPltfS.txt) || null, st.aPlatfR || (st.aPltfR && st.aPltfR.txt) || null, st.aCncl)
 	const dep = profile.parseWhen(ctx, date, st.dTimeS, st.dTimeR, st.dTZOffset, st.dCncl)
-	const depPl = profile.parsePlatform(ctx, st.dPlatfS || (st.dPltfS && st.dPltfS.txt) || null, st.dPlatfR || (st.dPltfR && st.dPltfR.txt) || null, st.dCncl)
+
+	const aPlatfS = (
+		st.aPlatfS
+		|| (st.aPltfS ? st.aPltfS.txt : null)
+		|| (st.aPlatformS && st.aPlatformS.text) // todo: what is aPlatformS.type?
+	)
+	const aPlatfR = (
+		st.aPlatfR
+		|| (st.aPltfR ? st.aPltfR.txt : null)
+		|| (st.aPlatformR && st.aPlatformR.text) // todo: what is aPlatformR.type?
+	)
+	const arrPl = profile.parsePlatform(ctx, aPlatfS, aPlatfR, st.aCncl)
+
+	const dPlatfS = (
+		st.dPlatfS
+		|| (st.dPltfS ? st.dPltfS.txt : null)
+		|| (st.dPlatformS && st.dPlatformS.text) // todo: what is dPlatformS.type?
+	)
+	const dPlatfR = (
+		st.dPlatfR
+		|| (st.dPltfR ? st.dPltfR.txt : null)
+		|| (st.dPlatformR && st.dPlatformR.text) // todo: what is aPlatformR.type?
+	)
+	const depPl = profile.parsePlatform(ctx, dPlatfS, dPlatfR, st.dCncl)
 
 	const res = {
-		stop: st.location || null,
+		stop: (
+			st.location
+			|| (st.loc && profile.parseLocation(ctx, st.loc))
+			|| null
+		),
 		arrival: arr.when,
 		plannedArrival: arr.plannedWhen,
 		arrivalDelay: arr.delay,
@@ -38,7 +64,7 @@ const parseStopover = (ctx, st, date) => { // st = raw stopover
 	}
 
 	if (opt.remarks && Array.isArray(st.msgL)) {
-		res.remarks = findRemarks(st.msgL).map(([remark]) => remark)
+		res.remarks = findRemarks(ctx, st.msgL).map(([remark]) => remark)
 	}
 
 	return res

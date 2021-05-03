@@ -4,7 +4,8 @@ const brToNewline = require('@derhuerst/br2nl')
 const omit = require('lodash/omit')
 
 const typesByIcon = Object.assign(Object.create(null), {
-	HimWarn: 'status'
+	HimWarn: 'status',
+	HimInfo: 'status',
 })
 
 const parseMsgEdge = (ctx) => (e) => {

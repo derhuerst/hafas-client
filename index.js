@@ -4,6 +4,10 @@ const isObj = require('lodash/isObject')
 const sortBy = require('lodash/sortBy')
 const pRetry = require('p-retry')
 const omit = require('lodash/omit')
+const {v4: uuidV4} = require('uuid')
+const {randomBytes} = require('crypto')
+const {gunzipSync} = require('zlib')
+const {DateTime} = require('luxon')
 
 const defaultProfile = require('./lib/default-profile')
 const validateProfile = require('./lib/validate-profile')
@@ -554,6 +558,188 @@ const createClient = (profile, userAgent, opt = {}) => {
 		}
 	}
 
+	const _checkSubscriptionsResultCode = (res) => {
+		if (!res.result || res.result.resultCode !== 'OK') {
+			const err = new Error('unexpected reponse')
+			err.res = res
+			throw err
+		}
+	}
+
+	// This HAFAS call seems to be idempotent.
+	// user IDs are case-sensitive!
+	const createSubscriptionsUser = async (channelIds = [uuidV4()], opt = {}) => {
+		if (!Array.isArray(channelIds) || channelIds.length === 0) {
+			throw new TypeError('channelIds must be a non-empty array')
+		}
+		for (let i = 0; i < channelIds.length; i++) {
+			if (!isNonEmptyString(channelIds[i])) {
+				throw new TypeError(`channelIds[${i}] must be a non-empty string`)
+			}
+		}
+
+		const pushToken = opt.pushToken || randomBytes(32).toString('hex')
+		const channels = channelIds.map((channelId) => ({
+			type: 'IPHONE',
+			name: 'PUSH_IPHONE',
+			address: pushToken,
+			channelId,
+			options: [
+				{type: 'NO_SOUND', value: '1'},
+				// todo: move to profiles?
+				// {type: 'CUSTOMER_TYPE', value: 'com.deutschebahn.vrn'},
+			],
+		}))
+		const {res} = await profile.request({profile, opt}, userAgent, {
+			meth: 'SubscrUserCreate',
+			req: {
+				userId: opt.userId || uuidV4(),
+				language: 'en', // todo: make customizable
+				channels,
+			},
+		})
+		_checkSubscriptionsResultCode(res)
+		return res.userId
+	}
+
+	const subscriptions = async (userId) => {
+		if (!isNonEmptyString(userId)) {
+			throw new TypeError('userId must be a non-empty string')
+		}
+
+		const {res} = await profile.request({profile, opt}, userAgent, {
+			meth: 'SubscrSearch',
+			req: {
+				userId,
+			},
+		})
+		_checkSubscriptionsResultCode(res)
+
+		const parseChannel = (ch) => ({
+			id: ch.channelId,
+		})
+		const parseSubscription = (sub) => ({
+			id: sub.subscrId,
+			status: sub.status,
+			channels: sub.channels.map(parseChannel),
+			journeyRefreshToken: sub.ctxRecon,
+		})
+
+		if (!Array.isArray(res.conSubscrL)) return []
+		return res.conSubscrL.map(parseSubscription)
+	}
+
+	const subscription = async (userId, subscriptionId, opt = {}) => {
+		if (!isNonEmptyString(userId)) {
+			throw new TypeError('userId must be a non-empty string')
+		}
+		if (subscriptionId === null || subscriptionId === undefined) {
+			throw new TypeError('missing subscriptionId')
+		}
+		opt = {
+			journey: false, // parse & expose the subscription's journey?
+			activeDays: false, // parse & expose days the subscription is active for?
+			...opt,
+		}
+
+		const {res, common} = await profile.request({profile, opt}, userAgent, {
+			meth: 'SubscrDetails',
+			req: {
+				userId,
+				subscrId: subscriptionId,
+			},
+		})
+		_checkSubscriptionsResultCode(res)
+
+		const ctx = {profile, opt, common, res}
+		return {
+			subscription: profile.parseSubscription(ctx, subscriptionId, res.conSubscr),
+			// todo: parse & give a proper name
+			rtEvents: res.eventHistory && res.eventHistory.rtEvents || null,
+			himEvents: res.eventHistory && res.eventHistory.himEvents || null,
+		}
+	}
+
+	const subscribeToJourney = async (userId, channelIds, journeyRefreshToken) => {
+		if (!isNonEmptyString(userId)) {
+			throw new TypeError('userId must be a non-empty string')
+		}
+		if (!Array.isArray(channelIds) || channelIds.length === 0) {
+			throw new TypeError('channelIds must be a non-empty array')
+		}
+		for (let i = 0; i < channelIds.length; i++) {
+			if (!isNonEmptyString(channelIds[i])) {
+				throw new TypeError(`channelIds[${i}] must be a non-empty string`)
+			}
+		}
+		if (!isNonEmptyString(journeyRefreshToken)) {
+			throw new TypeError('journeyRefreshToken must be a non-empty string')
+		}
+
+		opt = {
+			tripWarnings: true, // Subscribe to train information (failures, delays, change of platforms)?
+			routeWarnings: true, // Subscribe to route information (disturbances & construction sites)?
+			startMinutesBeforeJourney: 30, // Start monitoring x minutes before the journey begins.
+			minimumDelay: 1, // Only send notifications with at least x minutes of (vehicle) delay.
+			fromDate: Date.now(),
+			duration: 3, // Subscribe for 3 days.
+			...opt,
+		}
+		const untilDate = DateTime
+		.fromMillis(opt.fromDate, {locale: profile.locale, zone: profile.timezone})
+		.plus({days: 3})
+		.toMillis()
+
+		const req = {
+			userId,
+			channels: channelIds.map((channelId) => ({channelId})),
+			conSubscr: {
+				// todo: data?
+				// seems like without it, HAFAS ignores the data inside `journeyRefreshToken`
+				ctxRecon: journeyRefreshToken,
+				hysteresis: {
+					minDeviationInterval: opt.minimumDelay,
+					notificationStart: opt.startMinutesBeforeJourney,
+				},
+				monitorFlags: [
+					// todo: what exactly do these values stand for?
+					...(opt.tripWarnings ? ['OF', 'PF', 'DF', 'AF', 'DV'] : []),
+					...(opt.routeWarnings ? ['FTF'] : []),
+				],
+				serviceDays: {
+					beginDate: profile.formatDate(profile, +new Date(opt.fromDate)),
+					endDate: profile.formatDate(profile, untilDate),
+					// todo: allow custom weekdays via the `selectedDays` "binary string"
+				},
+			},
+		}
+
+		const {res} = await profile.request({profile, opt}, userAgent, {
+			meth: 'SubscrCreate',
+			req,
+		})
+		_checkSubscriptionsResultCode(res)
+		return res.subscrId
+	}
+
+	const unsubscribe = async (userId, subscriptionId) => {
+		if (!isNonEmptyString(userId)) {
+			throw new TypeError('userId must be a non-empty string')
+		}
+		if (subscriptionId === null || subscriptionId === undefined) {
+			throw new TypeError('missing subscriptionId')
+		}
+
+		const {res} = await profile.request({profile, opt}, userAgent, {
+			meth: 'SubscrDelete',
+			req: {
+				userId,
+				subscrId: subscriptionId,
+			},
+		})
+		_checkSubscriptionsResultCode(res)
+	}
+
 	const client = {
 		departures,
 		arrivals,
@@ -570,6 +756,13 @@ const createClient = (profile, userAgent, opt = {}) => {
 	if (profile.tripsByName) client.tripsByName = tripsByName
 	if (profile.remarks !== false) client.remarks = remarks
 	if (profile.lines !== false) client.lines = lines
+	if (profile.subscriptions !== false) {
+		client.createSubscriptionsUser = createSubscriptionsUser
+		client.subscriptions = subscriptions
+		client.subscription = subscription
+		client.subscribeToJourney = subscribeToJourney
+		client.unsubscribe = unsubscribe
+	}
 	Object.defineProperty(client, 'profile', {value: profile})
 	return client
 }

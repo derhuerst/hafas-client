@@ -9,8 +9,8 @@ const addRemark = (stopoverOrLeg, remark) => {
 	stopoverOrLeg.remarks.push(remark)
 }
 
-const applyRemarks = (leg, refs) => {
-	for (let [remark, ref] of findRemarks(refs)) {
+const applyRemarks = (ctx, leg, refs) => {
+	for (let [remark, ref] of findRemarks(ctx, refs)) {
 		const {fromLocation, toLocation} = ref
 
 		let wholeLeg = true, fromI = 0, toI = 0
@@ -55,8 +55,16 @@ const parseJourneyLeg = (ctx, pt, date) => { // pt = raw leg
 	const {profile, opt} = ctx
 
 	const res = {
-		origin: clone(pt.dep.location) || null,
-		destination: clone(pt.arr.location)
+		origin: (
+			(pt.dep.location && clone(pt.dep.location))
+			|| (pt.dep.loc && profile.parseLocation(ctx, pt.dep.loc))
+			|| null
+		),
+		destination: (
+			(pt.arr.location && clone(pt.arr.location))
+			|| (pt.arr.loc && profile.parseLocation(ctx, pt.arr.loc))
+			|| null
+		),
 	}
 
 	const dep = profile.parseWhen(ctx, date, pt.dep.dTimeS, pt.dep.dTimeR, pt.dep.dTZOffset, pt.dep.dCncl)
@@ -75,6 +83,7 @@ const parseJourneyLeg = (ctx, pt, date) => { // pt = raw leg
 		res.reachable = !!pt.jny.isRchbl
 	}
 
+	// todo: pt.jny.polylineGroup.polylineList[]
 	if (pt.jny && pt.jny.polyline) {
 		res.polyline = pt.jny.polyline || null
 	} else if (pt.jny && pt.jny.poly) {
@@ -93,19 +102,44 @@ const parseJourneyLeg = (ctx, pt, date) => { // pt = raw leg
 
 		// https://gist.github.com/derhuerst/426d4b95aeae701843b1e9c23105b8d4#file-tripsearch-2018-12-05-http-L4207-L4229
 		if (opt.remarks && pt.gis && Array.isArray(pt.gis.msgL)) {
-			applyRemarks(res, pt.gis.msgL)
+			applyRemarks(ctx, res, pt.gis.msgL)
 		}
-	} else if (pt.type === 'JNY') {
+	} else if (pt.type === 'JNY' || pt.type === '2') { // todo: what does `2` mean?
 		// todo: pull `public` value from `profile.products`
 		res.tripId = pt.jny.jid
-		res.line = pt.jny.line || null
+		res.line = (
+			pt.jny.line
+			|| (pt.jny.prod && profile.parseLine(ctx, pt.jny.prod))
+			|| null
+		)
 		res.direction = pt.jny.dirTxt && profile.parseStationName(ctx, pt.jny.dirTxt) || null
-		const arrPl = profile.parsePlatform(ctx, pt.arr.aPlatfS || (pt.arr.aPltfS !== undefined ? pt.arr.aPltfS.txt : null), pt.arr.aPlatfR || (pt.arr.aPltfR !== undefined ? pt.arr.aPltfR.txt : null), pt.arr.aCncl)
+
+		const aPlatfS = (
+			pt.arr.aPlatfS
+			|| (pt.arr.aPltfS ? pt.arr.aPltfS.txt : null)
+			|| (pt.arr.aPlatformS && pt.arr.aPlatformS.text) // todo: what is aPlatformS.type?
+		)
+		const aPlatfR = (
+			pt.arr.aPlatfR
+			|| (pt.arr.aPltfR ? pt.arr.aPltfR.txt : null)
+			|| (pt.arr.aPlatformR && pt.arr.aPlatformR.text) // todo: what is aPlatformR.type?
+		)
+		const arrPl = profile.parsePlatform(ctx, aPlatfS, aPlatfR, pt.arr.aCncl)
 		res.arrivalPlatform = arrPl.platform
 		res.plannedArrivalPlatform = arrPl.plannedPlatform
 		if (arrPl.prognosedPlatform) res.prognosedArrivalPlatform = arrPl.prognosedPlatform
 
-		const depPl = profile.parsePlatform(ctx, pt.dep.dPlatfS || (pt.dep.dPltfS !== undefined ? pt.dep.dPltfS.txt : null), pt.dep.dPlatfR || (pt.dep.dPltfR !== undefined ? pt.dep.dPltfR.txt : null), pt.dep.dCncl)
+		const dPlatfS = (
+			pt.dep.dPlatfS
+			|| (pt.dep.dPltfS ? pt.dep.dPltfS.txt : null)
+			|| (pt.dep.dPlatformS && pt.dep.dPlatformS.text) // todo: what is dPlatformS.type?
+		)
+		const dPlatfR = (
+			pt.dep.dPlatfR
+			|| (pt.dep.dPltfR ? pt.dep.dPltfR.txt : null)
+			|| (pt.dep.dPlatformR && pt.dep.dPlatformR.text) // todo: what is dPlatformR.type?
+		)
+		const depPl = profile.parsePlatform(ctx, dPlatfS, dPlatfR, pt.dep.dCncl)
 		res.departurePlatform = depPl.platform
 		res.plannedDeparturePlatform = depPl.plannedPlatform
 		if (depPl.prognosedPlatform) res.prognosedDeparturePlatform = depPl.prognosedPlatform
@@ -114,9 +148,14 @@ const parseJourneyLeg = (ctx, pt, date) => { // pt = raw leg
 			const stopL = pt.jny.stopL
 			res.stopovers = stopL.map(s => profile.parseStopover(ctx, s, date))
 
-			if (opt.remarks && Array.isArray(pt.jny.msgL)) {
+			const msgL = (
+				(Array.isArray(pt.jny.msgL) && pt.jny.msgL)
+				|| (Array.isArray(pt.jny.msgListElement) && pt.jny.msgListElement)
+				|| null
+			)
+			if (opt.remarks && Array.isArray(msgL)) {
 				// todo: apply leg-wide remarks if `opt.stopovers` is false
-				applyRemarks(res, pt.jny.msgL)
+				applyRemarks(ctx, res, msgL)
 			}
 
 			// filter stations the train passes without stopping, as this doesn't comply with fptf (yet)
@@ -144,7 +183,11 @@ const parseJourneyLeg = (ctx, pt, date) => { // pt = raw leg
 					: null
 				return {
 					tripId: a.jid,
-					line: a.line || null,
+					line: (
+						a.line
+						|| (a.prod && profile.parseLine(ctx, a.prod))
+						|| null
+					),
 					direction: a.dirTxt || null,
 					...when,
 				}

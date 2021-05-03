@@ -12,8 +12,15 @@ const flatMap = require('lodash/flatMap')
 // - warnings: notes from `himL` for cancellations, construction, etc
 // - remarks: both "notes" and "warnings"
 
-const findRemarks = (refs) => {
+const findRemarks = (ctx, refs) => {
+	const {profile} = ctx
+
 	return flatMap(refs, (ref) => {
+		if (ref.type === '2' && ref.rem) {
+			const hint = profile.parseHint(ctx, ref.rem)
+			return hint ? [[hint, ref]] : []
+		}
+
 		return [ref.warning, ref.hint]
 		.filter(rem => !!rem)
 		.map(rem => [rem, ref])

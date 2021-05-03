@@ -3,6 +3,8 @@
 const codesByIcon = Object.assign(Object.create(null), {
 	cancel: 'cancelled',
 	himWarn: 'disturbance',
+	HimInfo: 'disturbance',
+	// todo: attr_info, attr_bike_r, attr_bike, attr_bistro
 })
 
 const linkTypesByCode = Object.assign(Object.create(null), {
@@ -42,8 +44,9 @@ const parseHint = (ctx, h) => {
 	}
 
 	const text = h.txtN && h.txtN.trim() || ''
-	const icon = h.icon || null
-	const code = h.code || (icon && icon.type && codesByIcon[icon.type]) || null
+	const icon = h.icon || h.ico || null
+	const iconType = icon && ((icon && icon.type) || (icon && icon.res))
+	const code = h.code || (iconType && codesByIcon[iconType]) || null
 
 	if (h.type === 'M') {
 		return {
@@ -62,7 +65,7 @@ const parseHint = (ctx, h) => {
 			tripId: h.jid
 		}
 	}
-	if (h.type === 'A' || h.type === 'I') {
+	if (h.type === 'A' || h.type === 'I' || h.type === '2') {
 		return {
 			type: 'hint',
 			code,
